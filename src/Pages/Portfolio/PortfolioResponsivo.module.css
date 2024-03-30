@@ -1,0 +1,1877 @@
+        /* CSS Responsivo */
+
+        /* CSS CELULAR */
+
+        /*============== Inicio ==============*/
+
+        @media (max-width: 480px) {
+            .Inicio {
+                width: 100%;
+                height: 750px;
+
+            }
+
+            .Name {
+                width: 316px;
+                height: 85px;
+                top: 460px;
+                left: calc(50% - 316px/2 - 0.5px);
+
+                text-align: center;
+            }
+
+            .Name h1 {
+                font-size: 37.72px;
+                line-height: 30.6px;
+            }
+
+            .LogoContainer {
+                width: 316px;
+                height: auto;
+                top: 160px;
+
+                left: calc(50% - 316px/2 - 0.5px);
+            }
+
+            .LogoContainer img {
+                width: 300px;
+                height: auto;
+            }
+
+            .btn_sobre_mim {
+                width: 127.29px;
+                height: 40.76px;
+                left: calc(50% - 127.29px/2 - 0.5px);
+                top: 560px;
+
+                border-radius: 20.6599px;
+
+                font-size: 14.8173px;
+            }
+        }
+
+        /*============== Bem Vindos ==============*/
+
+        @media (max-width: 480px) {
+            .Bem_Vindos {
+                width: 100%;
+                height: 2280px;
+            }
+
+            .Name_Bem_Vindos {
+                width: 316px;
+                height: 62px;
+                top: 100px;
+                left: calc(50% - 316px/2 - 0.5px);
+
+                text-align: center;
+            }
+
+            .Name_Bem_Vindos h1 {
+                font-size: 28.72px;
+                line-height: 30.6px;
+            }
+
+            .Bem_Vindos_Portfolio {
+                width: 316px;
+                height: 130px;
+                left: calc(50% - 316px/2);
+                top: 190px;
+            }
+
+            .Bem_Vindos_Portfolio h2 {
+                font-size: 12.0446px;
+                line-height: 18px;
+            }
+
+            .Meus_Projetos {
+                width: 166px;
+                height: 46px;
+                left: calc(50% - 166px/2);
+                top: 350px;
+            }
+
+            .Meus_Projetos h1 {
+                font-size: 27.3514px;
+                line-height: 22px;
+
+                text-align: center;
+            }
+
+            /* ==== Cards dos meus Projetos ====*/
+
+            .Projetos {
+                width: 100%;
+                height: 1778px;
+                left: 0;
+                bottom: 80px;
+            }
+
+            /*============== MY SERVICE ==============*/
+
+            .Card_Projeto_MyService {
+                width: 330px;
+                height: 407.36px;
+
+                left: calc(50% - 330px/2);
+                border-radius: 54.55px;
+
+                background-image: url(../../Assets/bordaMyRespoMobile.png);
+            }
+
+            .Name_Projeto_MyService {
+                width: 170px;
+                height: 61px;
+                left: calc(50% - 170px/2);
+                top: 40px;
+            }
+
+            .Name_Projeto_MyService h1 {
+                text-align: center;
+                font-size: 30px;
+                line-height: 30.5px;
+            }
+
+            .Informacoes_Projeto_MyService {
+                position: absolute;
+                width: 310.76px;
+                height: 200px;
+                left: calc(50% - 310px/2);
+                top: 140px;
+
+                text-align: center;
+            }
+
+            .Informacoes_Projeto_MyService h1 {
+                font-size: 12.54px;
+                line-height: 18px;
+
+                width: 280.98px;
+                height: 58px;
+
+                left: calc(50% - 280.98px/2);
+                position: absolute;
+            }
+
+            .Informacoes_Projeto_MyService h2 {
+                font-size: 10.54px;
+                line-height: 12px;
+
+                top: 67.8px;
+                width: 280.98px;
+                height: 75px;
+
+                left: calc(50% - 280.98px/2);
+            }
+
+            .Informacoes_Projeto_MyService h3 {
+                font-size: 10.54px;
+                line-height: 12px;
+
+                top: 160px;
+                width: 240.98px;
+                height: 40px;
+
+                left: calc(50% - 240.98px/2);
+            }
+
+            .Btns_MyService {
+                left: calc(50% - 168px/2);
+                bottom: 30px;
+
+                width: 168px;
+                height: 20.02px;
+            }
+
+            .Info_Projeto_MySevice {
+                width: 105.04px;
+                height: 17.02px;
+
+                border: 1.5px solid var(--myservice);
+                border-radius: 15.2857px;
+            }
+
+            .Info_Projeto_MySevice h1 {
+                font-size: 6.54px;
+                line-height: 12px;
+                width: 105.04px;
+            }
+
+            .btn_veja_mais_MyService {
+                width: 55.04px;
+                height: 17.02px;
+
+                border-radius: 15.2857px;
+
+                font-size: 6.54px;
+                line-height: 12px;
+            }
+
+            /*============== COCA-COLA ==============*/
+
+            .Card_Projeto_CocaCola {
+                width: 330px;
+                height: 407.36px;
+
+                left: calc(50% - 330px/2);
+                border-radius: 54.55px;
+                top: 457px;
+
+                background-image: url(../../Assets/bordaCocaRespoMobile.png);
+            }
+
+            .Name_Projeto_CocaCola {
+                width: 170px;
+                height: 61px;
+                left: calc(50% - 170px/2);
+                top: 40px;
+            }
+
+            .Name_Projeto_CocaCola h1 {
+                text-align: center;
+                font-size: 30px;
+                line-height: 30.5px;
+            }
+
+            .Informacoes_Projeto_CocaCola {
+                position: absolute;
+                width: 310.76px;
+                height: 210px;
+                left: calc(50% - 310px/2);
+                top: 130px;
+
+                text-align: center;
+            }
+
+            .Informacoes_Projeto_CocaCola h1 {
+                font-size: 12.54px;
+                line-height: 18px;
+
+                width: 280.98px;
+                height: 55px;
+
+                left: calc(50% - 280.98px/2);
+                position: absolute;
+            }
+
+            .Informacoes_Projeto_CocaCola h2 {
+                font-size: 10.54px;
+                line-height: 12px;
+
+                top: 65px;
+                width: 300.98px;
+                height: 90px;
+
+                left: calc(50% - 300.98px/2);
+            }
+
+            .Informacoes_Projeto_CocaCola h3 {
+                font-size: 10.54px;
+                line-height: 12px;
+
+                top: 165px;
+                width: 300.98px;
+                height: 40px;
+
+                left: calc(50% - 300.98px/2);
+            }
+
+            .Btns_CocaCola {
+                left: calc(50% - 168px/2);
+                bottom: 30px;
+
+                width: 168px;
+                height: 20.02px;
+            }
+
+            .Info_Projeto_CocaCola {
+                width: 105.04px;
+                height: 17.02px;
+
+                border: 1.5px solid var(--cocacola);
+                border-radius: 15.2857px;
+            }
+
+            .Info_Projeto_CocaCola h1 {
+                font-size: 6.54px;
+                line-height: 12px;
+                width: 105.04px;
+            }
+
+            .btn_veja_mais_CocaCola {
+                width: 55.04px;
+                height: 17.02px;
+
+                border-radius: 15.2857px;
+
+                font-size: 6.54px;
+                line-height: 12px;
+            }
+
+            /*============== NETFLIX ==============*/
+
+            .Card_Projeto_NetFlix {
+                width: 330px;
+                height: 407.36px;
+
+                left: calc(50% - 330px/2);
+                border-radius: 54.55px;
+                top: 914px;
+
+                background-image: url(../../Assets/bordaNetRespoMobile.png);
+            }
+
+            .Name_Projeto_NetFlix {
+                width: 170px;
+                height: 61px;
+                left: calc(50% - 170px/2);
+                top: 40px;
+            }
+
+            .Name_Projeto_NetFlix h1 {
+                text-align: center;
+                font-size: 30px;
+                line-height: 30.5px;
+            }
+
+            .Informacoes_Projeto_NetFlix {
+                position: absolute;
+                width: 310.76px;
+                height: 200px;
+                left: calc(50% - 310px/2);
+                top: 140px;
+
+                text-align: center;
+            }
+
+            .Informacoes_Projeto_NetFlix h1 {
+                font-size: 12.54px;
+                line-height: 18px;
+
+                width: 280.98px;
+                height: 38px;
+
+                left: calc(50% - 280.98px/2);
+                position: absolute;
+            }
+
+            .Informacoes_Projeto_NetFlix h2 {
+                font-size: 10.54px;
+                line-height: 12px;
+
+                top: 57.8px;
+                width: 280.98px;
+                height: 75px;
+
+                left: calc(50% - 280.98px/2);
+            }
+
+            .Informacoes_Projeto_NetFlix h3 {
+                font-size: 10.54px;
+                line-height: 12px;
+
+                top: 150px;
+                width: 240.98px;
+                height: 40px;
+
+                left: calc(50% - 240.98px/2);
+            }
+
+            .Btns_NetFlix {
+                left: calc(50% - 105px/2);
+                bottom: 30px;
+
+                width: 105px;
+                height: 20.02px;
+            }
+
+            .Info_Projeto_NetFlix {
+                width: 105.04px;
+                height: 17.02px;
+
+                border: 1.5px solid var(--netflix);
+                border-radius: 15.2857px;
+            }
+
+            .Info_Projeto_NetFlix h1 {
+                font-size: 6.54px;
+                line-height: 12px;
+                width: 105.04px;
+            }
+
+            /*============== EM ANDAMENTO ==============*/
+
+            .Card_Projeto_Andamento {
+                width: 330px;
+                height: 407.36px;
+
+                left: calc(50% - 330px/2);
+                border-radius: 54.55px;
+                top: 1371px;
+
+                background-image: url(../../Assets/bordaAndRespoMobile.png);
+            }
+
+            .Name_Projeto_Andamento {
+                width: 200px;
+                height: 61px;
+                left: calc(50% - 200px/2);
+                top: 40px;
+            }
+
+            .Name_Projeto_Andamento h1 {
+                text-align: center;
+                font-size: 30px;
+                line-height: 30.5px;
+            }
+
+            .Informacoes_Projeto_Andamneto {
+                position: absolute;
+                width: 310.76px;
+                height: 200px;
+                left: calc(50% - 310px/2);
+                top: 140px;
+
+                text-align: center;
+            }
+
+            .Informacoes_Projeto_Andamneto h1 {
+                font-size: 12.54px;
+                line-height: 18px;
+
+                width: 280.98px;
+                height: 20px;
+
+                left: calc(50% - 280.98px/2);
+                position: absolute;
+            }
+
+            .Informacoes_Projeto_Andamneto h2 {
+                font-size: 10.54px;
+                line-height: 12px;
+
+                top: 37.8px;
+                width: 280.98px;
+                height: 95px;
+
+                left: calc(50% - 280.98px/2);
+            }
+
+            .Informacoes_Projeto_Andamneto h3 {
+                font-size: 10.54px;
+                line-height: 12px;
+
+                top: 150px;
+                width: 240.98px;
+                height: 50px;
+
+                left: calc(50% - 240.98px/2);
+            }
+
+            .Btns_Andamento {
+                left: calc(50% - 280px/2);
+                bottom: 30px;
+
+                width: 280px;
+                height: 20.02px;
+            }
+
+            .Info_Projeto_pro_GitHub {
+                width: 165.04px;
+                height: 17.02px;
+
+                border: 1.5px solid var(--cinzaclaro);
+                border-radius: 15.2857px;
+            }
+
+            .Info_Projeto_pro_GitHub h1 {
+                font-size: 6.54px;
+                line-height: 12px;
+                width: 160.04px;
+            }
+
+            .Info_Projeto_Andamento {
+                width: 100.04px;
+                height: 17.02px;
+
+                border: 1.5px solid var(--cinzaclaro);
+                border-radius: 15.2857px;
+            }
+
+            .Info_Projeto_Andamento h1 {
+                font-size: 6.54px;
+                line-height: 12px;
+                width: 100.04px;
+            }
+        }
+
+        /*============== Sobre mim ==============*/
+
+        @media (max-width: 480px) {
+            .Sobre {
+                width: 100%;
+                height: 680px;
+            }
+
+            .Name2 {
+                width: 316px;
+                height: 62px;
+                top: 80px;
+                left: calc(50% - 316px/2 - 0.5px);
+
+                text-align: center;
+            }
+
+            .Name2 h1 {
+                font-size: 38.72px;
+                line-height: 30.6px;
+            }
+
+            .Informacoes_Sobre_Mim {
+                width: 316px;
+                height: 390px;
+                left: calc(50% - 316px/2);
+                top: 170px;
+            }
+
+            .Informacoes_Sobre_Mim h1 {
+                font-size: 16.0446px;
+                line-height: 20px;
+
+                width: 316px;
+                height: 140px;
+
+                text-align: center;
+            }
+
+            .Informacoes_Sobre_Mim h2 {
+                font-size: 14.0446px;
+                line-height: 18px;
+
+                width: 316px;
+                height: 90px;
+
+                text-align: center;
+            }
+
+            .Informacoes_Sobre_Mim h3 {
+                font-size: 14.0446px;
+                line-height: 18px;
+
+                width: 316px;
+                height: 90px;
+
+                text-align: center;
+            }
+
+            .btn_carregue_CV {
+                width: 185px;
+                height: 40.76px;
+                left: calc(50% - 185px/2);
+                top: 575px;
+
+                font-size: 14.8173px;
+            }
+
+            .btn_carregue_CV img {
+                width: 14px;
+                height: 14px;
+            }
+        }
+
+        /*============== Habilidades ==============*/
+
+        @media (max-width: 480px) {
+            .Minhas_Habilidades {
+                width: 100%;
+                height: 2350px;
+            }
+
+            .Text_Habilidade {
+                width: 316px;
+                height: 62px;
+                top: 80px;
+                left: calc(50% - 316px/2 - 0.5px);
+
+                text-align: center;
+            }
+
+            .Text_Habilidade h1 {
+                font-size: 38.72px;
+                line-height: 30.6px;
+            }
+
+            /* ==== Cards das minhas habilidades ====*/
+
+            .Habilidades {
+                width: 100%;
+                height: 2050px;
+                left: 0;
+                top: 200px;
+
+                /*background: red;*/
+            }
+
+            /*============== HTML ==============*/
+
+            .Html {
+                width: 322.76px;
+                height: 394.48px;
+                left: calc(50% - 322.76px/2);
+
+                border-radius: 28.6897px;
+
+                border-bottom: 5.74px solid var(--laranja);
+            }
+
+            .Html img {
+                width: 63.91px;
+                height: 72.32px;
+                left: calc(50% - 63.91px/2);
+                top: 30px;
+            }
+
+            .Name_HTML {
+                width: 46px;
+                height: 26px;
+                left: calc(50% - 46px/2);
+                top: 121px;
+            }
+
+            .Name_HTML h1 {
+                font-size: 17.21px;
+                line-height: 26px;
+            }
+
+            .Nivel_Html {
+                width: 291.92px;
+                height: 26px;
+                left: calc(50% - 291.92px/2);
+                top: 166px;
+            }
+
+            .Nivel_Html h1 {
+                font-size: 14.34px;
+                line-height: 22px;
+            }
+
+            /*============== CSS ==============*/
+
+            .Css {
+                width: 322.76px;
+                height: 394.48px;
+
+                left: calc(50% - 322.76px/2);
+                top: 414.48px;
+
+                border-radius: 28.6897px;
+
+                border-bottom: 5.74px solid var(--azul);
+            }
+
+            .Css img {
+                width: 65.09px;
+                height: 72.32px;
+                left: calc(50% - 63.91px/2);
+                top: 30px;
+            }
+
+            .Name_CSS {
+                width: 35px;
+                height: 26px;
+                left: calc(50% - 35px/2);
+                top: 121px;
+            }
+
+            .Name_CSS h1 {
+                font-size: 17.21px;
+                line-height: 26px;
+            }
+
+            .Nivel_Css {
+                width: 291.92px;
+                height: 26px;
+                left: calc(50% - 291.92px/2);
+                top: 166px;
+            }
+
+            .Nivel_Css h1 {
+                font-size: 14.34px;
+                line-height: 22px;
+            }
+
+            /*============== JAVASCRIPT ==============*/
+
+            .JavaScript {
+                width: 322.76px;
+                height: 394.48px;
+
+                left: calc(50% - 322.76px/2);
+                top: 828.96px;
+
+                border-radius: 28.6897px;
+                border-bottom: 5.74px solid var(--amarelo);
+            }
+
+            .JavaScript img {
+                width: 72.32px;
+                height: 72.32px;
+                left: calc(50% - 72.32px/2);
+                top: 30px;
+            }
+
+            .Name_JavaScript {
+                width: 95px;
+                height: 26px;
+                left: calc(50% - 95px/2);
+                top: 121px;
+            }
+
+            .Name_JavaScript h1 {
+                font-size: 17.21px;
+                line-height: 26px;
+            }
+
+            .Nivel_JavaScript {
+                width: 291.92px;
+                height: 26px;
+                left: calc(50% - 291.92px/2);
+                top: 166px;
+            }
+
+            .Nivel_JavaScript h1 {
+                font-size: 14.34px;
+                line-height: 22px;
+            }
+
+            /*============== FIGMA ==============*/
+
+            .Figma {
+                width: 322.76px;
+                height: 394.48px;
+
+                left: calc(50% - 322.76px/2);
+                top: 1243.44px;
+
+                border-radius: 28.6897px;
+
+                border-bottom: 5.74px solid var(--verde);
+            }
+
+            .Figma img {
+                width: 49.94px;
+                height: 72.32px;
+                left: calc(50% - 49.94px/2);
+                top: 30px;
+            }
+
+            .Name_Figma {
+                width: 56px;
+                height: 26px;
+                left: calc(50% - 56px/2);
+                top: 121px;
+            }
+
+            .Name_Figma h1 {
+                font-size: 17.21px;
+                line-height: 26px;
+            }
+
+            .Nivel_Figma {
+                width: 291.92px;
+                height: 26px;
+                left: calc(50% - 291.92px/2);
+                top: 166px;
+            }
+
+            .Nivel_Figma h1 {
+                font-size: 14.34px;
+                line-height: 22px;
+            }
+
+            /*============== REACTJS ==============*/
+
+            .ReactJs {
+                width: 322.76px;
+                height: 394.48px;
+
+                border-radius: 28.6897px;
+                left: calc(50% - 322.76px/2);
+
+                border-bottom: 5.74px solid var(--azulReact);
+            }
+
+            .ReactJs img {
+                width: 81.06px;
+                height: 72.32px;
+                left: calc(50% - 81.06px/2);
+                top: 30px;
+            }
+
+            .Name_ReactJs {
+                width: 69px;
+                height: 26px;
+                left: calc(50% - 69px/2);
+                top: 121px;
+            }
+
+            .Name_ReactJs h1 {
+                font-size: 17.21px;
+                line-height: 26px;
+            }
+
+            .Nivel_ReactJs {
+                width: 291.92px;
+                height: 26px;
+                left: calc(50% - 291.92px/2);
+                top: 166px;
+            }
+
+            .Nivel_ReactJs h1 {
+                font-size: 14.34px;
+                line-height: 22px;
+            }
+        }
+
+         /*============== Contatos ==============*/
+
+         @media (max-width: 480px) {
+            .Meus_Contatos {
+                width: 100%;
+                height: 780px;
+            }
+
+            .Text_Contatos {
+                width: 316px;
+                height: 62px;
+                top: 60px;
+                left: calc(50% - 316px/2 - 0.5px);
+
+                text-align: center;
+            }
+
+            .Text_Contatos h1 {
+                font-size: 38.72px;
+                line-height: 30.6px;
+            }
+
+            .SobreContato {
+                width: 316px;
+                height: 250px;
+                left: calc(50% - 316px/2);
+                top: 150px;
+            }
+
+            .SobreContato h1 {
+                font-size: 16.0446px;
+                line-height: 20px;
+
+                width: 316px;
+                height: 105px;
+
+                text-align: center;
+            }
+
+            .SobreContato h2 {
+                font-size: 14.0446px;
+                line-height: 18px;
+
+                width: 316px;
+                height: 115px;
+
+                text-align: center;
+            }
+           
+            /*============== REDES ==============*/
+
+            .Redes {
+                position: absolute;
+                width: 295px;
+                height: 220px;
+                left: calc(50% - 295px/2);
+                top: 480px;
+            }
+
+            /* ==== LINKEDIN ==== */
+
+            .LinkedIn {
+                width: 75px;
+                height: 100px;
+            }
+
+            .LinkedInIcon {
+                width: 70px;
+                height: 70px;
+            }
+
+            .Informacoes_LinkedIn {
+                width: 75px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_LinkedIn h1 {
+                width: 75px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            /* ==== FIGMA ==== */
+
+            .FigmaRede {
+                width: 75px;
+                height: 100px;
+                left: 110px;
+            }
+
+            .IconFigma {
+                width: 70px;
+                height: 70px;
+            }
+
+            .Informacoes_Figma {
+                width: 75px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_Figma h1 {
+                width: 70px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            /* ==== GITHUB ==== */
+
+            .GitHub {
+                width: 75px;
+                height: 100px;
+                left: 220px;
+            }
+
+            .GitHubIcon {
+                width: 70px;
+                height: 70px;
+            }
+
+            .Informacoes_GitHub {
+                width: 75px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_GitHub h1 {
+                width: 75px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            /* ==== WHATSAPP ==== */
+
+            .WhatsApp {
+                width: 95px;
+                height: 100px;
+
+                top: 120px;
+                left: 40px;
+                position: absolute ;
+            }
+
+            .Informacoes_WhatsApp {
+                width: 95px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_WhatsApp h1 {
+                width: 95px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            /* ==== EMAIL ==== */
+
+            .Email {
+                width: 75px;
+                height: 100px;
+                left: 170px;
+                top: 120px;
+            }
+
+            .EmailIcon {
+                width: 70px;
+                height: 70px;
+            }
+
+            .Informacoes_Email {
+                width: 75px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_Email h1 {
+                width: 75px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+        }
+
+        /* CSS NOTEBOOK */
+
+        /*============== Inicio ==============*/
+
+        @media only screen and (min-width: 768px) and (max-width: 1440px) {
+            .Inicio {
+                width: 100%;
+                height: 680px;
+            }
+
+            .Name {
+                width: 680px;
+                height: 140px;
+                top: 390px;
+                left: 150px;
+            }
+
+            .Name h1 {
+                font-size: 85.667px;
+                line-height: 70px;
+            }
+
+            .LogoContainer {
+                width: 500px;
+                height: auto;
+                top: 100px;
+
+                right: 80px;
+            }
+
+            .LogoContainer img {
+                width: 485.77px;
+                height: auto;
+            }
+
+            .btn_sobre_mim {
+                width: 127.29px;
+                height: 40.76px;
+                left: 150px;
+                top: 548px;
+
+                border-radius: 20.6599px;
+
+                font-size: 14.8173px;
+            }
+        }
+
+        /*============== Bem Vindos ==============*/
+
+        @media only screen and (min-width: 768px) and (max-width: 1440px) {
+            .Bem_Vindos {
+                width: 100%;
+                height: 1288px;
+            }
+
+            .Name_Bem_Vindos {
+                width: 615px;
+                height: 103px;
+                left: calc(50% - 615px/2 - 0.5px);
+                top: 100px;
+            }
+
+            .Name_Bem_Vindos h1 {
+                font-size: 57.5143px;
+                line-height: 50px;
+            }
+
+            .Bem_Vindos_Portfolio {
+                width: 528px;
+                height: 80px;
+                left: calc(50% - 528px/2);
+                top: 215px;
+            }
+
+            .Bem_Vindos_Portfolio h2 {
+                font-size: 12.0446px;
+                line-height: 20px;
+            }
+
+            .Meus_Projetos {
+                width: 166px;
+                height: 46px;
+                left: 150px;
+                top: 350px;
+            }
+
+            .Meus_Projetos h1 {
+                font-size: 27.3514px;
+                line-height: 22px;
+            }
+
+            /* ==== Cards dos meus Projetos ====*/
+
+            .Projetos {
+                width: 1040px;
+                height: 753.42px;
+                left: calc(50% - 1040px/2);
+                bottom: 112px;
+            }
+
+            /*============== MY SERVICE ==============*/
+
+            .Card_Projeto_MyService {
+                width: 481px;
+                height: 347.71px;
+
+                border-radius: 41.39px;
+            }
+
+            .Name_Projeto_MyService {
+                width: 202.83px;
+                height: 61px;
+                left: 33.12px;
+                top: 33.12px;
+            }
+
+            .Name_Projeto_MyService h1 {
+                font-size: 35.8px;
+                line-height: 30.5px;
+            }
+
+            .Informacoes_Projeto_MyService {
+                position: absolute;
+                width: 390.76px;
+                height: 157.96px;
+                left: 33.12px;
+                top: 110.27px;
+            }
+
+            .Informacoes_Projeto_MyService h1 {
+                font-size: 13.54px;
+                line-height: 20px;
+
+                width: 331.98px;
+                height: 40px;
+            }
+
+            .Informacoes_Projeto_MyService h2 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 47.8px;
+                width: 390.76px;
+                height: 58px;
+            }
+
+            .Informacoes_Projeto_MyService h3 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 125px;
+                width: 390.76px;
+            }
+
+            .Btns_MyService {
+                right: 33.12px;
+                bottom: 33.12px;
+            }
+
+            /*============== COCA-COLA ==============*/
+
+            .Card_Projeto_CocaCola {
+                width: 481px;
+                height: 347.71px;
+
+                border-radius: 41.39px;
+            }
+
+            .Name_Projeto_CocaCola {
+                width: 202.83px;
+                height: 61px;
+                left: 33.12px;
+                top: 33.12px;
+            }
+
+            .Name_Projeto_CocaCola h1 {
+                font-size: 35.8px;
+                line-height: 30.5px;
+            }
+
+            .Informacoes_Projeto_CocaCola {
+                position: absolute;
+                width: 390.76px;
+                height: 157.96px;
+                left: 33.12px;
+                top: 110.27px;
+            }
+
+            .Informacoes_Projeto_CocaCola h1 {
+                font-size: 13.54px;
+                line-height: 20px;
+
+                width: 346.06px;
+                height: 40px;
+            }
+
+            .Informacoes_Projeto_CocaCola h2 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 47.8px;
+                width: 390.76px;
+                height: 58px;
+            }
+
+            .Informacoes_Projeto_CocaCola h3 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 125px;
+                width: 390.76px;
+            }
+
+            .Btns_CocaCola {
+                right: 33.12px;
+                bottom: 33.12px;
+            }
+
+            /*============== NETFLIX ==============*/
+
+            .Card_Projeto_NetFlix {
+                width: 481px;
+                height: 347.71px;
+
+                border-radius: 41.39px;
+            }
+
+            .Name_Projeto_NetFlix {
+                width: 135.77px;
+                height: 61px;
+                left: 33.12px;
+                top: 33.12px;
+            }
+
+            .Name_Projeto_NetFlix h1 {
+                font-size: 35.8px;
+                line-height: 30.5px;
+            }
+
+            .Informacoes_Projeto_NetFlix {
+                position: absolute;
+                width: 390.76px;
+                height: 157.96px;
+                left: 33.12px;
+                top: 110.27px;
+            }
+
+            .Informacoes_Projeto_NetFlix h1 {
+                font-size: 13.54px;
+                line-height: 20px;
+
+                width: 346.06px;
+                height: 40px;
+            }
+
+            .Informacoes_Projeto_NetFlix h2 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 47.8px;
+                width: 390.76px;
+                height: 58px;
+            }
+
+            .Informacoes_Projeto_NetFlix h3 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 125px;
+                width: 390.76px;
+            }
+
+            .Btns_NetFlix {
+                right: 33.12px;
+                bottom: 33.12px;
+            }
+
+            /*============== EM ANDAMENTO  ==============*/
+
+            .Card_Projeto_Andamento {
+                width: 481px;
+                height: 347.71px;
+
+                border-radius: 41.39px;
+            }
+
+            .Name_Projeto_Andamento {
+                width: 226.84px;
+                height: 61px;
+                left: 33.12px;
+                top: 33.12px;
+            }
+
+            .Name_Projeto_Andamento h1 {
+                font-size: 35.8px;
+                line-height: 30.5px;
+            }
+
+            .Informacoes_Projeto_Andamneto {
+                position: absolute;
+                width: 390.76px;
+                height: 157.96px;
+                left: 33.12px;
+                top: 110.27px;
+            }
+
+            .Informacoes_Projeto_Andamneto h1 {
+                font-size: 13.54px;
+                line-height: 20px;
+
+                width: 322.05px;
+                height: 20px;
+            }
+
+            .Informacoes_Projeto_Andamneto h2 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 30px;
+                width: 390.76px;
+                height: 58px;
+            }
+
+            .Informacoes_Projeto_Andamneto h3 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 115px;
+                width: 390.76px;
+            }
+
+            .Btns_Andamento {
+                right: 33.12px;
+                bottom: 33.12px;
+            }
+        }
+
+        /*============== Sobre mim ==============*/
+
+        @media only screen and (min-width: 768px) and (max-width: 1440px) {
+            .Sobre {
+                width: 100%;
+                height: 800px;
+            }
+
+            .Name2 {
+                width: 615px;
+                height: 67px;
+                left: calc(50% - 615px/2 - 0.5px);
+                top: 100px;
+            }
+
+            .Name2 h1 {
+                font-size: 57.5143px;
+                line-height: 50px;
+            }
+
+            .Informacoes_Sobre_Mim {
+                width: 859px;
+                height: 355px;
+                left: 150px;
+                top: 230px;
+            }
+
+            .Informacoes_Sobre_Mim h1 {
+                font-size: 22px;
+                line-height: 30px;
+
+                width: 818px;
+                height: 120px;
+            }
+
+            .Informacoes_Sobre_Mim h2 {
+                font-size: 18px;
+                line-height: 28px;
+
+                width: 747.8px;
+                height: 90px;
+            }
+
+            .Informacoes_Sobre_Mim h3 {
+                font-size: 18px;
+                line-height: 28px;
+
+                width: 747.8px;
+                height: 90px;
+            }
+
+            .btn_carregue_CV {
+                width: 203px;
+                height: 45.76px;
+                left: 150px;
+                top: 598px;
+
+                font-size: 16.8173px;
+            }
+
+            .btn_carregue_CV img {
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+        /*============== Hablidades ==============*/
+
+        @media only screen and (min-width: 768px) and (max-width: 1440px) {
+            .Minhas_Habilidades {
+                width: 100%;
+                height: 1200px;
+            }
+
+            .Text_Habilidade {
+                width: 615px;
+                height: 67px;
+                left: calc(50% - 615px/2 - 0.5px);
+                top: 100px;
+            }
+
+            .Text_Habilidade h1 {
+                font-size: 57.5143px;
+                line-height: 50px;
+            }
+
+            .Habilidades {
+                width: 1040px;
+                height: 832px;
+                left: calc(50% - 1040px/2);
+                top: 240px;
+            }
+
+            /*============== HTML ==============*/
+
+            .Html {
+                width: 322.76px;
+                height: 394.48px;
+
+                border-radius: 28.6897px;
+
+                border-bottom: 5.74px solid var(--laranja);
+            }
+
+            .Html img {
+                width: 63.91px;
+                height: 72.32px;
+                left: calc(50% - 63.91px/2);
+                top: 30px;
+            }
+
+            .Name_HTML {
+                width: 46px;
+                height: 26px;
+                left: calc(50% - 46px/2);
+                top: 121px;
+            }
+
+            .Name_HTML h1 {
+                font-size: 17.21px;
+                line-height: 26px;
+            }
+
+            .Nivel_Html {
+                width: 291.92px;
+                height: 26px;
+                left: calc(50% - 291.92px/2);
+                top: 166px;
+            }
+
+            .Nivel_Html h1 {
+                font-size: 14.34px;
+                line-height: 22px;
+            }
+
+            /*============== CSS ==============*/
+
+            .Css {
+                width: 322.76px;
+                height: 394.48px;
+
+                left: calc(50% - 322.76px/2);
+
+                border-radius: 28.6897px;
+
+                border-bottom: 5.74px solid var(--azul);
+            }
+
+            .Css img {
+                width: 65.09px;
+                height: 72.32px;
+                left: calc(50% - 63.91px/2);
+                top: 30px;
+            }
+
+            .Name_CSS {
+                width: 35px;
+                height: 26px;
+                left: calc(50% - 35px/2);
+                top: 121px;
+            }
+
+            .Name_CSS h1 {
+                font-size: 17.21px;
+                line-height: 26px;
+            }
+
+            .Nivel_Css {
+                width: 291.92px;
+                height: 26px;
+                left: calc(50% - 291.92px/2);
+                top: 166px;
+            }
+
+            .Nivel_Css h1 {
+                font-size: 14.34px;
+                line-height: 22px;
+            }
+
+            /*============== JAVASCRIPT ==============*/
+
+            .JavaScript {
+                width: 322.76px;
+                height: 394.48px;
+
+                border-radius: 28.6897px;
+                border-bottom: 5.74px solid var(--amarelo);
+            }
+
+            .JavaScript img {
+                width: 72.32px;
+                height: 72.32px;
+                left: calc(50% - 72.32px/2);
+                top: 30px;
+            }
+
+            .Name_JavaScript {
+                width: 95px;
+                height: 26px;
+                left: calc(50% - 95px/2);
+                top: 121px;
+            }
+
+            .Name_JavaScript h1 {
+                font-size: 17.21px;
+                line-height: 26px;
+            }
+
+            .Nivel_JavaScript {
+                width: 291.92px;
+                height: 26px;
+                left: calc(50% - 291.92px/2);
+                top: 166px;
+            }
+
+            .Nivel_JavaScript h1 {
+                font-size: 14.34px;
+                line-height: 22px;
+            }
+
+            /*============== FIGMA ==============*/
+
+            .Figma {
+                width: 322.76px;
+                height: 394.48px;
+
+                border-radius: 28.6897px;
+
+                border-bottom: 5.74px solid var(--verde);
+            }
+
+            .Figma img {
+                width: 49.94px;
+                height: 72.32px;
+                left: calc(50% - 49.94px/2);
+                top: 30px;
+            }
+
+            .Name_Figma {
+                width: 56px;
+                height: 26px;
+                left: calc(50% - 56px/2);
+                top: 121px;
+            }
+
+            .Name_Figma h1 {
+                font-size: 17.21px;
+                line-height: 26px;
+            }
+
+            .Nivel_Figma {
+                width: 291.92px;
+                height: 26px;
+                left: calc(50% - 291.92px/2);
+                top: 166px;
+            }
+
+            .Nivel_Figma h1 {
+                font-size: 14.34px;
+                line-height: 22px;
+            }
+
+            /*============== REACTJS ==============*/
+
+            .ReactJs {
+                width: 322.76px;
+                height: 394.48px;
+
+                border-radius: 28.6897px;
+                left: calc(50% - 322.76px/2);
+
+                border-bottom: 5.74px solid var(--azulReact);
+            }
+
+            .ReactJs img {
+                width: 81.06px;
+                height: 72.32px;
+                left: calc(50% - 81.06px/2);
+                top: 30px;
+            }
+
+            .Name_ReactJs {
+                width: 69px;
+                height: 26px;
+                left: calc(50% - 69px/2);
+                top: 121px;
+            }
+
+            .Name_ReactJs h1 {
+                font-size: 17.21px;
+                line-height: 26px;
+            }
+
+            .Nivel_ReactJs {
+                width: 291.92px;
+                height: 26px;
+                left: calc(50% - 291.92px/2);
+                top: 166px;
+            }
+
+            .Nivel_ReactJs h1 {
+                font-size: 14.34px;
+                line-height: 22px;
+            }
+        }
+
+        /*============== Contatos ==============*/
+
+        @media only screen and (min-width: 768px) and (max-width: 1440px) {
+            .Meus_Contatos {
+                width: 100%;
+                height: 680px;
+            }
+
+            .Text_Contatos {
+                width: 615px;
+                height: 67px;
+                left: calc(50% - 615px/2 - 0.5px);
+                top: 100px;
+            }
+
+            .Text_Contatos h1 {
+                font-size: 57.5143px;
+                line-height: 50px;
+            }
+
+            .SobreContato {
+                width: 700px;
+                height: 253px;
+                left: calc(50% - 700px/2);
+                top: 218px;
+            }
+
+            .SobreContato h1 {
+                width: 687px;
+                height: 253px;
+
+                font-size: 22px;
+                line-height: 30px;
+            }
+
+            .SobreContato h2 {
+                width: 700px;
+                height: 253px;
+
+                font-size: 18px;
+                line-height: 30px;
+            }
+
+            /*============== REDES ==============*/
+
+            .Redes {
+                position: absolute;
+                width: 455px;
+                height: 105px;
+                left: calc(50% - 455px/2);
+                top: 500px;
+
+                background: transparent;
+            }
+
+            /* ==== LINKEDIN ==== */
+
+            .LinkedIn {
+                width: 75px;
+                height: 100px;
+            }
+
+            .LinkedInIcon {
+                width: 70px;
+                height: 70px;
+            }
+
+            .Informacoes_LinkedIn {
+                width: 75px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_LinkedIn h1 {
+                width: 75px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            /* ==== FIGMA ==== */
+
+            .FigmaRede {
+                width: 75px;
+                height: 100px;
+                left: 90px;
+            }
+
+            .IconFigma {
+                width: 70px;
+                height: 70px;
+            }
+
+            .Informacoes_Figma {
+                width: 75px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_Figma h1 {
+                width: 75px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            /* ==== GITHUB ==== */
+
+            .GitHub {
+                width: 75px;
+                height: 100px;
+                left: 180px;
+            }
+
+            .GitHubIcon {
+                width: 70px;
+                height: 70px;
+            }
+
+            .Informacoes_GitHub {
+                width: 75px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_GitHub h1 {
+                width: 75px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            /* ==== WHATSAPP ==== */
+
+            .WhatsApp {
+                width: 95px;
+                height: 100px;
+                left: 270px;
+            }
+
+            .Informacoes_WhatsApp {
+                width: 95px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_WhatsApp h1 {
+                width: 95px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            /* ==== EMAIL ==== */
+
+            .Email {
+                width: 75px;
+                height: 100px;
+                left: 380px;
+            }
+
+            .EmailIcon {
+                width: 70px;
+                height: 70px;
+            }
+
+            .Informacoes_Email {
+                width: 75px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_Email h1 {
+                width: 75px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+        }

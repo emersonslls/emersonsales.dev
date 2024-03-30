@@ -1,0 +1,1897 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  /* === cores principais === */
+  --branco: #E6E8E6;
+  --azul: #3772FF;
+  --laranja: #FF5733;
+  --preto: #171615;
+
+  /* === cores adicionais === */
+  --cinzaclaro: #8B8B8B;
+  --cocacola: #E51E2A;
+  --netflix: #DB202C;
+  --myservice: #0A3DC2;
+  --amarelo: #FCAF45;
+  --verde: #0ACF83;
+  --azulReact: #61DAFB;
+}
+
+/* ===== cores nos span's ===== */
+
+.Azul {
+  color: var(--azul);
+}
+
+.MyService {
+  color: var(--myservice);
+}
+
+.Laranja {
+  color: var(--laranja);
+}
+
+.CocaCola {
+  color: var(--cocacola);
+}
+
+.Netflix {
+  color: var(--netflix);
+}
+
+.Andamneto {
+  color: var(--cinzaclaro);
+}
+
+/*============== Inicio ==============*/
+
+.Inicio {
+  position: relative;
+
+  width: 100%;
+  height: 1080px;
+
+  background: var(--preto);
+}
+
+.Name {
+  width: 880px;
+  height: 220px;
+  top: 622px;
+  left: 200px;
+
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.Name h1 {
+  color: var(--branco);
+  font-family: "Poppins";
+  font-size: 105.667px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 90px;
+}
+
+.Name h1 span {
+  font-weight: 800;
+}
+
+.LogoContainer {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  width: 700px;
+  height: auto;
+  top: 200px;
+
+  right: 130px;
+}
+
+.LogoContainer img {
+  width: 685.77px;
+  height: auto;
+}
+
+.LogoContainer:hover {
+  animation: floatAnimation 3s ease infinite alternate;
+  /* Adiciona a animação de flutuação ao passar o mouse */
+}
+
+@keyframes floatAnimation {
+  from {
+    transform: translate(0px, 0px);
+    /* Início da animação */
+  }
+
+  to {
+    transform: translate(-10px, -10px);
+    /* Fim da animação */
+  }
+}
+
+.btn_sobre_mim {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11.8782px 17.8173px;
+  gap: 11.88px;
+
+  position: absolute;
+  width: 147.29px;
+  height: 45.76px;
+  left: 200px;
+  top: 830px;
+
+  background: #3772FF;
+  border-radius: 22.6599px;
+
+  border: none;
+
+  color: var(--branco);
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 17.8173px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/*============== Bem Vindos ==============*/
+
+.Bem_Vindos {
+  position: relative;
+
+  width: 100%;
+  height: 1500px;
+
+  background: var(--preto);
+}
+
+.Name_Bem_Vindos {
+  width: 815px;
+  height: 133px;
+  left: calc(50% - 815px/2 - 0.5px);
+  top: 111.98px;
+
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.Name_Bem_Vindos h1 {
+  color: var(--branco);
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 77.5143px;
+  line-height: 66px;
+  text-align: center;
+}
+
+.Name_Bem_Vindos h1 span {
+  font-weight: 800;
+}
+
+.Bem_Vindos_Portfolio {
+  width: 628px;
+  height: 80px;
+  left: calc(50% - 628px/2);
+  top: 259px;
+
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.Bem_Vindos_Portfolio h2 {
+  color: var(--cinzaclaro);
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.0446px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.Meus_Projetos {
+  width: 186px;
+  height: 64px;
+  left: 348px;
+  top: 405px;
+
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.Meus_Projetos h1 {
+  color: var(--branco);
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 37.3514px;
+  line-height: 32px;
+  text-align: left;
+}
+
+.Meus_Projetos h1 span {
+  font-weight: 800;
+}
+
+/* ==== Cards dos meus Projetos ====*/
+
+.Projetos {
+  position: absolute;
+  width: 1262px;
+  height: 890px;
+  left: calc(50% - 1262px/2);
+  bottom: 112px;
+
+  background: transparent;
+}
+
+/*============== MY SERVICE ==============*/
+
+.Card_Projeto_MyService {
+  box-sizing: border-box;
+  position: absolute;
+  width: 581px;
+  height: 420px;
+  left: 0px;
+  top: 0px;
+
+  border-radius: 50px;
+
+  background-image: url(../../Assets/bordaMy.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.Card_Projeto_MyService:hover {
+  transform: translateY(-5px);
+  /* Movendo a div para cima */
+  box-shadow: 10px 10px 25px rgba(100, 100, 100, 0.1);
+}
+
+.Name_Projeto_MyService {
+  position: absolute;
+  width: 245px;
+  height: 74px;
+  left: 40px;
+  top: 40px;
+}
+
+.Name_Projeto_MyService h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43.2392px;
+  line-height: 37px;
+  text-align: left;
+
+  color: var(--branco);
+}
+
+.Name_Projeto_MyService h1 span {
+  font-weight: 800;
+  display: block;
+}
+
+.Informacoes_Projeto_MyService {
+  position: absolute;
+  width: 472px;
+  height: 190px;
+  left: 40px;
+  top: 133.2px;
+}
+
+.Informacoes_Projeto_MyService h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.3494px;
+  line-height: 25px;
+
+  color: var(--branco);
+  width: 401px;
+  height: 50px;
+}
+
+.Informacoes_Projeto_MyService h2 {
+  position: absolute;
+  top: 57.8px;
+  width: 472px;
+  height: 68px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.528px;
+  line-height: 17px;
+
+  color: var(--cinzaclaro);
+}
+
+.Informacoes_Projeto_MyService h3 {
+  position: absolute;
+  top: 150px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.528px;
+  line-height: 17px;
+
+  color: var(--cinzaclaro);
+}
+
+.Btns_MyService {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 208.04px;
+  height: 30.02px;
+  right: 40px;
+  bottom: 40px;
+}
+
+.Info_Projeto_MySevice {
+  position: absolute;
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5.5102px 11.0204px;
+  gap: 5.51px;
+
+  width: 125.04px;
+  height: 27.02px;
+
+  border: 1.5px solid var(--myservice);
+  border-radius: 19.2857px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Info_Projeto_MySevice h1 {
+  width: 108px;
+  height: 10px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8.35215px;
+  line-height: 10px;
+  color: var(--branco);
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.btn_veja_mais_MyService {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  border: none;
+
+  color: var(--branco);
+
+  width: 75px;
+  height: 27.02px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8.35215px;
+  line-height: 10px;
+
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5.5102px 11.0204px;
+  gap: 5.51px;
+
+  background: var(--myservice);
+  border-radius: 19.2857px;
+}
+
+/*============== COCA-COLA ==============*/
+
+.Card_Projeto_CocaCola {
+  box-sizing: border-box;
+  position: absolute;
+  width: 581px;
+  height: 420px;
+  right: 0px;
+  top: 0px;
+
+  border-radius: 50px;
+
+  background-image: url(../../Assets/bordaR.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.Card_Projeto_CocaCola:hover {
+  transform: translateY(-5px);
+  /* Movendo a div para cima */
+  box-shadow: 10px 10px 25px rgba(100, 100, 100, 0.1);
+}
+
+.Name_Projeto_CocaCola {
+  position: absolute;
+  width: 245px;
+  height: 74px;
+  left: 40px;
+  top: 40px;
+}
+
+.Name_Projeto_CocaCola h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43.2392px;
+  line-height: 37px;
+  text-align: left;
+
+  color: var(--branco);
+}
+
+.Name_Projeto_CocaCola h1 span {
+  font-weight: 800;
+  display: block;
+}
+
+.Informacoes_Projeto_CocaCola {
+  position: absolute;
+  width: 472px;
+  height: 190px;
+  left: 40px;
+  top: 133.2px;
+}
+
+.Informacoes_Projeto_CocaCola h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.3494px;
+  line-height: 25px;
+
+  color: var(--branco);
+  width: 418px;
+  height: 50px;
+}
+
+.Informacoes_Projeto_CocaCola h2 {
+  position: absolute;
+  top: 57.8px;
+  width: 472px;
+  height: 68px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.528px;
+  line-height: 17px;
+
+  color: var(--cinzaclaro);
+}
+
+.Informacoes_Projeto_CocaCola h3 {
+  position: absolute;
+  top: 158px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.528px;
+  line-height: 17px;
+
+  color: var(--cinzaclaro);
+}
+
+.Btns_CocaCola {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 208.04px;
+  height: 30.02px;
+  right: 40px;
+  bottom: 40px;
+}
+
+.Info_Projeto_CocaCola {
+  position: absolute;
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5.5102px 11.0204px;
+  gap: 5.51px;
+
+  width: 125.04px;
+  height: 27.02px;
+
+  border: 1.5px solid var(--cocacola);
+  border-radius: 19.2857px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Info_Projeto_CocaCola h1 {
+  width: 108px;
+  height: 10px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8.35215px;
+  line-height: 10px;
+  color: var(--branco);
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.btn_veja_mais_CocaCola {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  border: none;
+
+  color: var(--branco);
+
+  width: 75px;
+  height: 27.02px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8.35215px;
+  line-height: 10px;
+
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5.5102px 11.0204px;
+  gap: 5.51px;
+
+  background: var(--cocacola);
+  border-radius: 19.2857px;
+}
+
+/*============== NETFLIX ==============*/
+
+.Card_Projeto_NetFlix {
+  box-sizing: border-box;
+  position: absolute;
+  width: 581px;
+  height: 420px;
+  left: 0px;
+  bottom: 0px;
+
+  border-radius: 50px;
+
+  background-image: url(../../Assets/bordaNetf.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.Card_Projeto_NetFlix:hover {
+  transform: translateY(-5px);
+  /* Movendo a div para cima */
+  box-shadow: 10px 10px 25px rgba(100, 100, 100, 0.1);
+}
+
+.Name_Projeto_NetFlix {
+  position: absolute;
+  width: 245px;
+  height: 74px;
+  left: 40px;
+  top: 40px;
+}
+
+.Name_Projeto_NetFlix h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43.2392px;
+  line-height: 37px;
+  text-align: left;
+
+  color: var(--branco);
+}
+
+.Name_Projeto_NetFlix h1 span {
+  font-weight: 800;
+}
+
+.Informacoes_Projeto_NetFlix {
+  position: absolute;
+  width: 472px;
+  height: 190px;
+  left: 40px;
+  top: 133.2px;
+}
+
+.Informacoes_Projeto_NetFlix h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.3494px;
+  line-height: 25px;
+
+  color: var(--branco);
+  width: 389px;
+  height: 50px;
+}
+
+.Informacoes_Projeto_NetFlix h2 {
+  position: absolute;
+  top: 57.8px;
+  width: 472px;
+  height: 68px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.528px;
+  line-height: 17px;
+
+  color: var(--cinzaclaro);
+}
+
+.Informacoes_Projeto_NetFlix h3 {
+  position: absolute;
+  top: 148px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.528px;
+  line-height: 17px;
+
+  color: var(--cinzaclaro);
+}
+
+.Btns_NetFlix {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 105.04px;
+  height: 30.02px;
+  right: 40px;
+  bottom: 40px;
+}
+
+.Info_Projeto_NetFlix {
+  position: absolute;
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5.5102px 11.0204px;
+  gap: 5.51px;
+
+  width: 105.04px;
+  height: 27.02px;
+
+  border: 1.5px solid var(--netflix);
+  border-radius: 19.2857px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Info_Projeto_NetFlix h1 {
+  width: 105.04px;
+  height: 10px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8.35215px;
+  line-height: 10px;
+  color: var(--branco);
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-items: center;
+  text-align: center;
+}
+
+/*============== EM ANDAMENTO ==============*/
+
+.Card_Projeto_Andamento {
+  box-sizing: border-box;
+  position: absolute;
+  width: 581px;
+  height: 420px;
+  right: 0px;
+  bottom: 0px;
+
+  border-radius: 50px;
+
+  background-image: url(../../Assets/bordaAnd.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.Card_Projeto_Andamento:hover {
+  transform: translateY(-5px);
+  /* Movendo a div para cima */
+  box-shadow: 10px 10px 25px rgba(100, 100, 100, 0.1);
+}
+
+.Name_Projeto_Andamento {
+  position: absolute;
+  width: 275px;
+  height: 74px;
+  left: 40px;
+  top: 40px;
+}
+
+.Name_Projeto_Andamento h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43.2392px;
+  line-height: 37px;
+  text-align: left;
+
+  color: var(--branco);
+}
+
+.Name_Projeto_Andamento h1 span {
+  font-weight: 800;
+}
+
+.Informacoes_Projeto_Andamneto {
+  position: absolute;
+  width: 472px;
+  height: 190px;
+  left: 40px;
+  top: 133.2px;
+}
+
+.Informacoes_Projeto_Andamneto h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.3494px;
+  line-height: 25px;
+
+  color: var(--branco);
+  width: 389px;
+  height: 50px;
+}
+
+.Informacoes_Projeto_Andamneto h2 {
+  position: absolute;
+  top: 30px;
+  width: 472px;
+  height: 68px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.528px;
+  line-height: 17px;
+
+  color: var(--cinzaclaro);
+}
+
+.Informacoes_Projeto_Andamneto h3 {
+  position: absolute;
+  top: 135px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.528px;
+  line-height: 17px;
+
+  color: var(--cinzaclaro);
+}
+
+.Btns_Andamento {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 328.08px;
+  height: 30.02px;
+  right: 40px;
+  bottom: 40px;
+}
+
+.Info_Projeto_pro_GitHub {
+  position: absolute;
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5.5102px 11.0204px;
+  gap: 5.51px;
+
+  width: 215.04px;
+  height: 27.02px;
+
+  border: 1.5px solid var(--cinzaclaro);
+  border-radius: 19.2857px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Info_Projeto_pro_GitHub h1 {
+  width: 205.04px;
+  height: 10px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8.35215px;
+  line-height: 10px;
+  color: var(--branco);
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.Info_Projeto_Andamento {
+  position: absolute;
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5.5102px 11.0204px;
+  gap: 5.51px;
+
+  width: 105.04px;
+  height: 27.02px;
+  right: 0;
+
+  border: 1.5px solid var(--cinzaclaro);
+  border-radius: 19.2857px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Info_Projeto_Andamento h1 {
+  width: 105.04px;
+  height: 10px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8.35215px;
+  line-height: 10px;
+  color: var(--branco);
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-items: center;
+  text-align: center;
+}
+
+/*============== Sobre mim ==============*/
+
+.Sobre {
+  position: relative;
+
+  width: 100%;
+  height: 898px;
+
+  background: var(--preto);
+}
+
+.Name2 {
+  width: 632px;
+  height: 67px;
+  left: calc(50% - 632px/2);
+  top: 112px;
+
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.Name2 h1 {
+  color: var(--azul);
+  font-family: "Poppins";
+  font-size: 77.5143px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 66px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.Informacoes_Sobre_Mim {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 29px;
+
+  position: absolute;
+  width: 959px;
+  height: 385px;
+  left: 200px;
+  top: 289px;
+}
+
+.Informacoes_Sobre_Mim h1 {
+  color: var(--branco);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+  width: 918px;
+  height: 119px;
+}
+
+.Informacoes_Sobre_Mim h2 {
+  color: var(--cinzaclaro);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+  width: 847.8px;
+  height: 119px;
+}
+
+.Informacoes_Sobre_Mim h3 {
+  color: var(--cinzaclaro);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+  width: 847.8px;
+  height: 119px;
+}
+
+.btn_carregue_CV {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11.8782px 17.8173px;
+  gap: 11.88px;
+
+  position: absolute;
+  width: 223px;
+  height: 45.76px;
+  left: 200px;
+  top: 693px;
+
+  background: #3772FF;
+  border-radius: 22.6599px;
+
+  border: none;
+
+  color: var(--branco);
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.8173px;
+  line-height: 22px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+.btn_carregue_CV img {
+  width: 18px;
+  height: 18px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/*============== Hablidades ==============*/
+
+.Minhas_Habilidades {
+  position: relative;
+
+  width: 100%;
+  height: 1602px;
+
+  background: var(--preto);
+}
+
+.Text_Habilidade {
+  width: 632px;
+  height: 67px;
+  left: calc(50% - 632px/2);
+  top: 79px;
+
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.Text_Habilidade h1 {
+  color: var(--azul);
+  font-family: "Poppins";
+  font-size: 77.5143px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 66px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.Habilidades {
+  display: flex;
+  position: absolute;
+  width: 1429px;
+  height: 1160px;
+  left: calc(50% - 1429px/2);
+  top: 240px;
+
+  background: transparent;
+}
+
+/*============== HTML ==============*/
+
+.Html {
+  position: absolute;
+  width: 450px;
+  height: 550px;
+  left: 0px;
+  top: 0px;
+
+  background: var(--preto);
+  border-radius: 40px;
+  border-bottom: 8px solid var(--laranja);
+}
+
+.Html img {
+  width: 89.1px;
+  height: 100.83px;
+  position: absolute;
+  left: calc(50% - 89.1px/2);
+  top: 40px;
+}
+
+.Html:hover {
+  transform: translateY(-5px);
+  /* Movendo a div para cima */
+  box-shadow: 10px 10px 25px rgba(255, 87, 51, 0.1);
+}
+
+.Name_HTML {
+  position: absolute;
+  width: 64px;
+  height: 36px;
+  left: calc(50% - 64px/2);
+  top: 170px;
+}
+
+.Name_HTML h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  text-align: center;
+
+  color: var(--branco);
+}
+
+.Nivel_Html {
+  position: absolute;
+  width: 407px;
+  height: 278px;
+  left: calc(50% - 407px/2);
+  top: 231.67px;
+}
+
+.Nivel_Html h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: var(--cinzaclaro);
+}
+
+/*============== CSS ==============*/
+
+.Css {
+  position: absolute;
+  width: 450px;
+  height: 550px;
+  left: calc(50% - 450px/2);
+  top: 0px;
+
+  background: var(--preto);
+  border-radius: 40px;
+  border-bottom: 8px solid var(--azul);
+}
+
+.Css img {
+  width: 90.75px;
+  height: 100.83px;
+  position: absolute;
+  left: calc(50% - 90.75px/2);
+  top: 40px;
+}
+
+.Css:hover {
+  transform: translateY(-5px);
+  /* Movendo a div para cima */
+  box-shadow: 10px 10px 25px rgba(55, 114, 255, 0.1);
+}
+
+.Name_CSS {
+  position: absolute;
+  width: 64px;
+  height: 36px;
+  left: calc(50% - 64px/2);
+  top: 170px;
+}
+
+.Name_CSS h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  text-align: center;
+
+  color: var(--branco);
+}
+
+.Nivel_Css {
+  position: absolute;
+  width: 407px;
+  height: 278px;
+  left: calc(50% - 407px/2);
+  top: 231.67px;
+}
+
+.Nivel_Css h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: var(--cinzaclaro);
+}
+
+/*============== JAVASCRIPT ==============*/
+
+.JavaScript {
+  position: absolute;
+  width: 450px;
+  height: 550px;
+  right: 0px;
+  top: 0px;
+
+  background: var(--preto);
+  border-radius: 40px;
+  border-bottom: 8px solid var(--amarelo);
+}
+
+.JavaScript img {
+  width: 100.83px;
+  height: 100.83px;
+  position: absolute;
+  left: calc(50% - 100.83px/2);
+  top: 40px;
+}
+
+.JavaScript:hover {
+  transform: translateY(-5px);
+  /* Movendo a div para cima */
+  box-shadow: 10px 10px 25px rgba(252, 175, 69, 0.1);
+}
+
+.Name_JavaScript {
+  position: absolute;
+  width: 132px;
+  height: 36px;
+  left: calc(50% - 132px/2);
+  top: 170px;
+}
+
+.Name_JavaScript h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  text-align: center;
+
+  color: var(--branco);
+}
+
+.Nivel_JavaScript {
+  position: absolute;
+  width: 407px;
+  height: 278px;
+  left: calc(50% - 407px/2);
+  top: 231.67px;
+}
+
+.Nivel_JavaScript h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: var(--cinzaclaro);
+}
+
+/*============== FIGMA ==============*/
+
+.Figma {
+  position: absolute;
+  width: 450px;
+  height: 550px;
+  left: 0px;
+  bottom: 0px;
+
+  background: var(--preto);
+  border-radius: 40px;
+  border-bottom: 8px solid var(--verde);
+}
+
+.Figma img {
+  width: 69.63px;
+  height: 100.83px;
+  position: absolute;
+  left: calc(50% - 69.63px/2);
+  top: 40px;
+}
+
+.Figma:hover {
+  transform: translateY(-5px);
+  /* Movendo a div para cima */
+  box-shadow: 10px 10px 25px rgba(10, 207, 131, 0.1);
+}
+
+.Name_Figma {
+  position: absolute;
+  width: 78px;
+  height: 36px;
+  left: calc(50% - 78px/2);
+  top: 170px;
+}
+
+.Name_Figma h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  text-align: center;
+
+  color: var(--branco);
+}
+
+.Nivel_Figma {
+  position: absolute;
+  width: 407px;
+  height: 278px;
+  left: calc(50% - 407px/2);
+  top: 231.67px;
+}
+
+.Nivel_Figma h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: var(--cinzaclaro);
+}
+
+/*============== REACTJS ==============*/
+
+.ReactJs {
+  position: absolute;
+  width: 450px;
+  height: 550px;
+  left: calc(50% - 450px/2);
+  bottom: 0px;
+
+  background: var(--preto);
+  border-radius: 40px;
+  border-bottom: 8px solid var(--azulReact);
+}
+
+.ReactJs img {
+  width: 113.01px;
+  height: 100.83px;
+  position: absolute;
+  left: calc(50% - 113.01px/2);
+  top: 40px;
+}
+
+.ReactJs:hover {
+  transform: translateY(-5px);
+  /* Movendo a div para cima */
+  box-shadow: 10px 10px 25px rgba(97, 218, 251, 0.1);
+}
+
+.Name_ReactJs {
+  position: absolute;
+  width: 97px;
+  height: 36px;
+  left: calc(50% - 97px/2);
+  top: 170px;
+}
+
+.Name_ReactJs h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  text-align: center;
+
+  color: var(--branco);
+}
+
+.Nivel_ReactJs {
+  position: absolute;
+  width: 407px;
+  height: 278px;
+  left: calc(50% - 407px/2);
+  top: 231.67px;
+}
+
+.Nivel_ReactJs h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: var(--cinzaclaro);
+}
+
+/*============== Contatos ==============*/
+
+.Meus_Contatos {
+  position: relative;
+  width: 100%;
+  height: 720px;
+
+  background: var(--preto);
+}
+
+.Text_Contatos {
+  width: 632px;
+  height: 67px;
+  left: calc(50% - 632px/2);
+  top: 112px;
+
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.Text_Contatos h1 {
+  color: var(--azul);
+  font-family: "Poppins";
+  font-size: 77.5143px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 66px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.SobreContato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+
+  position: absolute;
+  width: 800px;
+  height: 253px;
+  left: calc(50% - 800px/2);
+  top: 228px;
+}
+
+.SobreContato h1 {
+  width: 787px;
+  height: 108px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+
+  color: var(--branco);
+}
+
+.SobreContato h2 {
+  width: 800px;
+  height: 120px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: var(--cinzaclaro);
+}
+
+/*============== REDES ==============*/
+
+.Redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 8.12px;
+
+  position: absolute;
+  width: 510px;
+  height: 115px;
+  left: calc(50% - 510px/2);
+  top: 520px;
+
+  background: transparent;
+}
+
+/* ==== LINKEDIN ==== */
+
+.LinkedIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 85px;
+  height: 110px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.LinkedInIcon {
+  width: 80px;
+  height: 80px;
+  top: 0px;
+  left: 2px;
+  position: absolute;
+}
+
+.LinkedInIcon:hover {
+  transform: translateY(-5px);
+}
+
+.Informacoes_LinkedIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 80px;
+  height: 10px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  position: absolute;
+  top: 85px;
+  left: 2px;
+}
+
+.Informacoes_LinkedIn h1 {
+  text-align: center;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: var(--branco);
+}
+
+/* ==== FIGMA ==== */
+
+.FigmaRede {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 85px;
+  height: 110px;
+  left: 100px;
+  top: 0px;
+  position: absolute;
+}
+
+.IconFigma {
+  width: 80px;
+  height: 80px;
+  top: 0px;
+  left: 2px;
+  position: absolute;
+}
+
+.IconFigma:hover {
+  transform: translateY(-5px);
+}
+
+.Informacoes_Figma {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 80px;
+  height: 10px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  position: absolute;
+  top: 85px;
+  left: 2px;
+}
+
+.Informacoes_Figma h1 {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: var(--branco);
+}
+
+/* ==== GITHUB ==== */
+
+.GitHub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 85px;
+  height: 110px;
+  left: 200px;
+  top: 0px;
+  position: absolute;
+}
+
+.GitHubIcon {
+  width: 80px;
+  height: 80px;
+  top: 0px;
+  left: 2px;
+  position: absolute;
+}
+
+.GitHubIcon:hover {
+  transform: translateY(-5px);
+}
+
+.Informacoes_GitHub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 80px;
+  height: 10px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  position: absolute;
+  top: 85px;
+  left: 2px;
+}
+
+.Informacoes_GitHub h1 {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: var(--branco);
+}
+
+/* ==== WHATSAPP ==== */
+
+.WhatsApp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 105px;
+  height: 110px;
+  left: 300px;
+  top: 0px;
+  position: absolute;
+}
+
+.Informacoes_WhatsApp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 105px;
+  height: 20px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  position: absolute;
+  top: 85px;
+  left: 0px;
+}
+
+.Informacoes_WhatsApp h1 {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: var(--branco);
+}
+
+/* ==== EMAIL ==== */
+
+.Email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 85px;
+  height: 110px;
+  left: 420px;
+  top: 0px;
+  position: absolute;
+}
+
+.EmailIcon {
+  width: 80px;
+  height: 80px;
+  top: 0px;
+  left: 2px;
+  position: absolute;
+}
+
+.EmailIcon:hover {
+  transform: translateY(-5px);
+}
+
+.Informacoes_Email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 80px;
+  height: 10px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  position: absolute;
+  top: 85px;
+  left: 02px;
+}
+
+.Informacoes_Email h1 {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: var(--branco);
+}

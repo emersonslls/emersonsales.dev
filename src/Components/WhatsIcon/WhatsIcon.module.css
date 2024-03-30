@@ -1,0 +1,11 @@
+.WhatsAppIcon {
+    width: 80px;
+    height: 80px;
+    top: 0px;
+    left: 12.5px;
+    position: absolute;
+  }
+  
+  .WhatsAppIcon:hover {
+    transform: translateY(-5px);
+  }
