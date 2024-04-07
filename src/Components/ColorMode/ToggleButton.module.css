@@ -1,0 +1,28 @@
+/* ToggleButton.module.css */
+
+.toggleButton {
+    background-color: #007bff; /* Cor padrão do botão */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none; /* Remove a borda ao focar */
+
+    position: absolute;
+
+    top: 250px;
+
+    z-index: 9999;
+  }
+  
+  .toggleButton:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+  }
+  
+  /* Estilos para o modo escuro */
+  .darkMode {
+    background-color: #343a40; /* Cor de fundo do modo escuro */
+    color: #ffffff;
+  }
+  

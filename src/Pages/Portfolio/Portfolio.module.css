@@ -19,7 +19,7 @@
   /* === cores adicionais === */
   --cinzaclaro: #8B8B8B;
   --cocacola: #E51E2A;
-  --netflix: #DB202C;
+  --cars: #D62625;
   --myservice: #0A3DC2;
   --amarelo: #FCAF45;
   --verde: #0ACF83;
@@ -44,12 +44,30 @@
   color: var(--cocacola);
 }
 
-.Netflix {
-  color: var(--netflix);
+.Cars {
+  color: var(--cars);
 }
 
 .Andamneto {
   color: var(--cinzaclaro);
+}
+
+/*============== ScrollBar ==============*/
+
+/* Largura */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Fundo */
+::-webkit-scrollbar-track {
+  background-color: var(--preto);
+}
+
+/* Scroll */
+::-webkit-scrollbar-thumb {
+  background: var(--azul);
+  border-radius: 10px;
 }
 
 /*============== Inicio ==============*/
@@ -153,6 +171,11 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.btn_sobre_mim:hover {
+  border: 3px solid var(--azul);
+  background: none;
 }
 
 /*============== Bem Vindos ==============*/
@@ -625,9 +648,9 @@
   border-radius: 19.2857px;
 }
 
-/*============== NETFLIX ==============*/
+/*============== C&E CARS ==============*/
 
-.Card_Projeto_NetFlix {
+.Card_Projeto_Cars {
   box-sizing: border-box;
   position: absolute;
   width: 581px;
@@ -637,26 +660,26 @@
 
   border-radius: 50px;
 
-  background-image: url(../../Assets/bordaNetf.png);
+  background-image: url(../../Assets/bordaC&ECars.png);
   background-size: cover;
   background-position: center;
 }
 
-.Card_Projeto_NetFlix:hover {
+.Card_Projeto_Cars:hover {
   transform: translateY(-5px);
   /* Movendo a div para cima */
   box-shadow: 10px 10px 25px rgba(100, 100, 100, 0.1);
 }
 
-.Name_Projeto_NetFlix {
+.Name_Projeto_Cars {
   position: absolute;
-  width: 245px;
+  width: 205px;
   height: 74px;
   left: 40px;
   top: 40px;
 }
 
-.Name_Projeto_NetFlix h1 {
+.Name_Projeto_Cars h1 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -667,11 +690,11 @@
   color: var(--branco);
 }
 
-.Name_Projeto_NetFlix h1 span {
+.Name_Projeto_Cars h1 span {
   font-weight: 800;
 }
 
-.Informacoes_Projeto_NetFlix {
+.Informacoes_Projeto_Cars {
   position: absolute;
   width: 472px;
   height: 190px;
@@ -679,7 +702,7 @@
   top: 133.2px;
 }
 
-.Informacoes_Projeto_NetFlix h1 {
+.Informacoes_Projeto_Cars h1 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -687,11 +710,11 @@
   line-height: 25px;
 
   color: var(--branco);
-  width: 389px;
+  width: 395px;
   height: 50px;
 }
 
-.Informacoes_Projeto_NetFlix h2 {
+.Informacoes_Projeto_Cars h2 {
   position: absolute;
   top: 57.8px;
   width: 472px;
@@ -706,9 +729,9 @@
   color: var(--cinzaclaro);
 }
 
-.Informacoes_Projeto_NetFlix h3 {
+.Informacoes_Projeto_Cars h3 {
   position: absolute;
-  top: 148px;
+  top: 140px;
 
   font-family: 'Poppins';
   font-style: normal;
@@ -719,7 +742,7 @@
   color: var(--cinzaclaro);
 }
 
-.Btns_NetFlix {
+.Btns_Cars {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -727,13 +750,13 @@
   gap: 8px;
 
   position: absolute;
-  width: 105.04px;
+  width: 120.04px;
   height: 30.02px;
   right: 40px;
   bottom: 40px;
 }
 
-.Info_Projeto_NetFlix {
+.Info_Projeto_Cars {
   position: absolute;
 
   box-sizing: border-box;
@@ -746,10 +769,10 @@
   padding: 5.5102px 11.0204px;
   gap: 5.51px;
 
-  width: 105.04px;
+  width: 120.04px;
   height: 27.02px;
 
-  border: 1.5px solid var(--netflix);
+  border: 1.5px solid var(--cars);
   border-radius: 19.2857px;
 
   flex: none;
@@ -757,7 +780,7 @@
   flex-grow: 0;
 }
 
-.Info_Projeto_NetFlix h1 {
+.Info_Projeto_Cars h1 {
   width: 105.04px;
   height: 10px;
 
@@ -843,9 +866,9 @@
 
 .Informacoes_Projeto_Andamneto h2 {
   position: absolute;
-  top: 30px;
+  top: 35px;
   width: 472px;
-  height: 68px;
+  height: 80px;
 
   font-family: 'Poppins';
   font-style: normal;
@@ -1098,6 +1121,15 @@
   flex-grow: 0;
 }
 
+.btn_carregue_CV:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 10px 10px 25px rgba(55, 114, 255, 0.1);
+}
+
+.btn_carregue_CV:active {
+  background: var(--laranja);
+}
 
 .btn_carregue_CV img {
   width: 18px;
@@ -1636,6 +1668,10 @@
 }
 
 .Informacoes_LinkedIn h1 {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
   text-align: center;
 
   font-family: 'Poppins';

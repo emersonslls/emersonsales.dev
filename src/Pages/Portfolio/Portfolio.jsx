@@ -8,6 +8,8 @@ import Header from '../../Components/Header';
 import WhatsAppIcon from '../../Components/WhatsIcon/WhatsAppIcon';
 import Footer from '../../Components/Footer';
 
+import ToggleButton from '../../Components/ColorMode/ToggleButton';
+
 /* ===== Imagens =====*/
 
 import Logo from '../../Assets/Logo.png';
@@ -62,9 +64,18 @@ function Portfolio() {
 
     const meuEmail = 'emersonsantossales245@gmail.com';
 
+    const initLightMode = () => {
+        document.querySelector('input[type="checkbox"]').addEventListener('change', () => {
+            document.body.classList.toggle('light-mode')
+        })
+
+    }
+
     return (
         <div>
             <Header />
+
+          {/*<ToggleButton />*/}
 
             <div className={`${styles.Inicio} ${responsivoStyles.Inicio}`}>
                 <div className={`${styles.Name} ${responsivoStyles.Name}`}>
@@ -161,33 +172,35 @@ function Portfolio() {
                                     Landing Page, responsiva
                                 </h1>
                             </div>
-                            <button className={`${styles.btn_veja_mais_CocaCola} ${responsivoStyles.btn_veja_mais_CocaCola}`} >
-                                Veja mais
-                            </button>
+                            <a href="https://github.com/emersonslls/Coca-Cola" target="_blank">
+                                <button className={`${styles.btn_veja_mais_CocaCola} ${responsivoStyles.btn_veja_mais_CocaCola}`} >
+                                    Veja mais
+                                </button>
+                            </a>
                         </div>
                     </div>
-                    <div className={`${styles.Card_Projeto_NetFlix} ${responsivoStyles.Card_Projeto_NetFlix}`}>
-                        <div  className={`${styles.Name_Projeto_NetFlix} ${responsivoStyles.Name_Projeto_NetFlix}`}>
+                    <div className={`${styles.Card_Projeto_Cars} ${responsivoStyles.Card_Projeto_Cars}`}>
+                        <div className={`${styles.Name_Projeto_Cars} ${responsivoStyles.Name_Projeto_Cars}`}>
                             <h1>
                                 Projeto
-                                <span className={styles.Netflix}> Netflix</span>
+                                <span className={styles.Cars}> c&e cars</span>
                             </h1>
                         </div>
-                        <div className={`${styles.Informacoes_Projeto_NetFlix} ${responsivoStyles.Informacoes_Projeto_NetFlix}`}>
+                        <div className={`${styles.Informacoes_Projeto_Cars} ${responsivoStyles.Informacoes_Projeto_Cars}`}>
                             <h1>
-                                Este projeto está sendo desenvolvido por mim como parte dos meus estudos.
+                                Este projeto está sendo um redesign de um dos meus primeiros projetos desenvolvidos.
                             </h1>
                             <h2>
-                                Este projeto é parte do meu processo de aprendizado, onde estou explorando várias funcionalidades da programação. Utilizo-o como uma oportunidade para melhorar minhas habilidades e expandir meu conhecimento em diferentes áreas.
+                                Este projeto de redesign é uma etapa no meu aprendizado. Estou explorando funcionalidades da programação e utilizando-o para aprimorar habilidades. Dedicando tempo para experimentar conceitos e resolver desafios, mesmo em andamento.
                             </h2>
                             <h3>
-                                Embora ainda esteja em andamento, estou dedicando tempo para experimentar novos conceitos e resolver desafios.
+                                Este projeto está me ajudando a expandir meu conhecimento e aprimorar minhas habilidades de desenvolvimento de software.
                             </h3>
                         </div>
-                        <div className={`${styles.Btns_NetFlix} ${responsivoStyles.Btns_NetFlix}`}>
-                            <div className={`${styles.Info_Projeto_NetFlix} ${responsivoStyles.Info_Projeto_NetFlix}`}>
+                        <div className={`${styles.Btns_Cars} ${responsivoStyles.Btns_Cars}`}>
+                            <div className={`${styles.Info_Projeto_Cars} ${responsivoStyles.Info_Projeto_Cars}`}>
                                 <h1>
-                                    Em andamento...
+                                    Em desemvolvimento...
                                 </h1>
                             </div>
                         </div>
@@ -211,7 +224,7 @@ function Portfolio() {
                             </h3>
                         </div>
                         <div className={`${styles.Btns_Andamento} ${responsivoStyles.Btns_Andamento}`}>
-                        <div className={`${styles.Info_Projeto_pro_GitHub} ${responsivoStyles.Info_Projeto_pro_GitHub}`}>
+                            <div className={`${styles.Info_Projeto_pro_GitHub} ${responsivoStyles.Info_Projeto_pro_GitHub}`}>
                                 <h1>
                                     Esses projetos estarão em breve no meu GitHub
                                 </h1>
@@ -304,7 +317,7 @@ function Portfolio() {
                         <div className={`${styles.Name_ReactJs} ${responsivoStyles.Name_ReactJs}`}>
                             <h1>React.js</h1>
                         </div>
-                         <div className={`${styles.Nivel_ReactJs} ${responsivoStyles.Nivel_ReactJs}`} /* ==== Meu nivel de habilidade ==== */>
+                        <div className={`${styles.Nivel_ReactJs} ${responsivoStyles.Nivel_ReactJs}`} /* ==== Meu nivel de habilidade ==== */>
                             <h1>
                                 Tenho habilidades intermediárias em ReactJS e uso em grande parte dos meus projetos. Capaz de criar componentes funcionais e de classe, gerenciar estado e props para interfaces de usuário dinâmicas.
                             </h1>
@@ -334,8 +347,8 @@ function Portfolio() {
                             target="_blank"
                         >
                             <span></span>
-                            <img src={LinkedIn}  className={`${styles.LinkedInIcon} ${responsivoStyles.LinkedInIcon}`} />
-                            <div  className={`${styles.Informacoes_LinkedIn} ${responsivoStyles.Informacoes_LinkedIn}`}>
+                            <img src={LinkedIn} className={`${styles.LinkedInIcon} ${responsivoStyles.LinkedInIcon}`} />
+                            <div className={`${styles.Informacoes_LinkedIn} ${responsivoStyles.Informacoes_LinkedIn}`}>
                                 <h1>
                                     LinkedIn
                                 </h1>
@@ -348,7 +361,7 @@ function Portfolio() {
                             target="_blank"
                         >
                             <span></span>
-                            <img src={Figma}className={`${styles.IconFigma} ${responsivoStyles.IconFigma}`} />
+                            <img src={Figma} className={`${styles.IconFigma} ${responsivoStyles.IconFigma}`} />
                             <div className={`${styles.Informacoes_Figma} ${responsivoStyles.Informacoes_Figma}`}>
                                 <h1>
                                     Figma
