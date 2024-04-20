@@ -395,7 +395,7 @@ function Portfolio() {
                             <img src={Email} className={`${styles.EmailIcon} ${responsivoStyles.EmailIcon}`} />
                             <div className={`${styles.Informacoes_Email} ${responsivoStyles.Informacoes_Email}`}>
                                 <h1>
-                                    E-mail
+                                    E-mailgit push
                                 </h1>
                             </div>
                         </a>
