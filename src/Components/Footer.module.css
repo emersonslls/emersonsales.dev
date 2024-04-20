@@ -101,7 +101,7 @@ footer {
 
 /* ===== RESPONSIVIDADE ===== */
 
-@media (max-width: 480px) {
+@media only screen and (width >=320px) and (width <=430px) {
     footer {
         width: 100%;
         height: 120px;
@@ -152,8 +152,53 @@ footer {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (width >= 768px) and (width <= 834px) {
+    footer {
+        width: 100%;
+        height: 140px;
+    }
 
+    .LogoContainer {
+        width: 50px;
+        height: 50px;
+        left: calc(50% - 50px/2);
+        top: 15px;
+    }
+
+    .Feito {
+        width: 130px;
+        height: 23px;
+        left: calc(50% - 130px/2);
+        top: 70.5px;
+    }
+
+    .Feito h1 {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .Feito a {
+        left: 67px;
+    }
+
+    .Direitos {
+        position: absolute;
+        width: 230px;
+        height: 23px;
+        left: calc(50% - 230px/2);
+        top: 100px;
+    }
+    
+    .Direitos h2 {
+        width: 230px;
+        height: 23px;
+
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media only screen and (width >=1024px) and (width <=1440px) {
     footer {
         width: 100%;
         height: 80px;

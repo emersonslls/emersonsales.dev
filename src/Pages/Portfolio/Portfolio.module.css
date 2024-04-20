@@ -171,6 +171,8 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+
+  cursor: pointer;
 }
 
 .btn_sobre_mim:hover {
@@ -1119,6 +1121,8 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+
+  cursor: pointer;
 }
 
 .btn_carregue_CV:hover {

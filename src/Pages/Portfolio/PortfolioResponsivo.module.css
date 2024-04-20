@@ -4,11 +4,10 @@
 
         /*============== Inicio ==============*/
 
-        @media (max-width: 480px) {
+        @media only screen and (width >=320px) and (width <=430px) {
             .Inicio {
                 width: 100%;
                 height: 750px;
-
             }
 
             .Name {
@@ -52,7 +51,7 @@
 
         /*============== Bem Vindos ==============*/
 
-        @media (max-width: 480px) {
+        @media only screen and (width >=320px) and (width <=430px) {
             .Bem_Vindos {
                 width: 100%;
                 height: 2280px;
@@ -507,7 +506,7 @@
 
         /*============== Sobre mim ==============*/
 
-        @media (max-width: 480px) {
+        @media only screen and (width >=320px) and (width <=430px) {
             .Sobre {
                 width: 100%;
                 height: 680px;
@@ -581,7 +580,7 @@
 
         /*============== Habilidades ==============*/
 
-        @media (max-width: 480px) {
+        @media only screen and (width >=320px) and (width <=430px) {
             .Minhas_Habilidades {
                 width: 100%;
                 height: 2350px;
@@ -833,9 +832,9 @@
             }
         }
 
-         /*============== Contatos ==============*/
+        /*============== Contatos ==============*/
 
-         @media (max-width: 480px) {
+        @media only screen and (width >=320px) and (width <=430px) {
             .Meus_Contatos {
                 width: 100%;
                 height: 780px;
@@ -881,7 +880,7 @@
 
                 text-align: center;
             }
-           
+
             /*============== REDES ==============*/
 
             .Redes {
@@ -986,7 +985,7 @@
 
                 top: 120px;
                 left: 40px;
-                position: absolute ;
+                position: absolute;
             }
 
             .Informacoes_WhatsApp {
@@ -1037,11 +1036,704 @@
 
         }
 
+        /* CSS TABLET */
+
+        /*============== Inicio ==============*/
+
+        @media only screen and (width >=768px) and (width <=834px) {
+            .Inicio {
+                width: 100%;
+                height: 850px;
+            }
+
+            .Name {
+                width: 600px;
+                height: 85px;
+                top: 620px;
+                left: calc(50% - 600px/2 - 0.5px);
+
+                text-align: center;
+            }
+
+            .Name h1 {
+                font-size: 75.667px;
+                line-height: 70px;
+            }
+
+            .LogoContainer {
+                width: 500px;
+                height: auto;
+                top: 120px;
+
+                left: calc(50% - 500px/2 - 0.5px);
+            }
+
+            .LogoContainer img {
+                width: 450px;
+                height: auto;
+            }
+
+            .btn_sobre_mim {
+                position: absolute;
+                width: 147.29px;
+                height: 45.76px;
+                left: calc(50% - 147.29px/2 - 0.5px);
+                top: 750px;
+
+                border-radius: 22.6599px;
+
+                font-size: 17.8173px;
+            }
+        }
+
+        /*============== Bem Vindos ==============*/
+
+        @media only screen and (width >=768px) and (width <=834px) {
+            .Bem_Vindos {
+                width: 100%;
+                height: 1945px;
+            }
+
+            .Name_Bem_Vindos {
+                width: 615px;
+                height: 103px;
+                left: calc(50% - 615px/2 - 0.5px);
+                top: 80px;
+            }
+
+            .Name_Bem_Vindos h1 {
+                font-size: 57.5143px;
+                line-height: 50px;
+            }
+
+            .Bem_Vindos_Portfolio {
+                width: 528px;
+                height: 80px;
+                left: calc(50% - 528px/2);
+                top: 185px;
+            }
+
+            .Bem_Vindos_Portfolio h2 {
+                font-size: 12.0446px;
+                line-height: 20px;
+            }
+
+            .Meus_Projetos {
+                width: 166px;
+                height: 46px;
+                left: 100px;
+                top: 320px;
+            }
+
+            .Meus_Projetos h1 {
+                font-size: 27.3514px;
+                line-height: 22px;
+            }
+
+            /* ==== Cards dos meus Projetos ====*/
+
+            .Projetos {
+                width: 100%;
+                height: 1460.84px;
+                left: 0;
+                bottom: 100px;
+            }
+
+            /*============== MY SERVICE ==============*/
+
+            .Card_Projeto_MyService {
+                width: 481px;
+                height: 347.71px;
+
+                top: 0;
+                left: calc(50% - 481px/2);
+
+                border-radius: 41.39px;
+            }
+
+            .Name_Projeto_MyService {
+                width: 202.83px;
+                height: 61px;
+                left: 33.12px;
+                top: 33.12px;
+            }
+
+            .Name_Projeto_MyService h1 {
+                font-size: 35.8px;
+                line-height: 30.5px;
+            }
+
+            .Informacoes_Projeto_MyService {
+                position: absolute;
+                width: 390.76px;
+                height: 157.96px;
+                left: 33.12px;
+                top: 110.27px;
+            }
+
+            .Informacoes_Projeto_MyService h1 {
+                font-size: 13.54px;
+                line-height: 20px;
+
+                width: 331.98px;
+                height: 40px;
+            }
+
+            .Informacoes_Projeto_MyService h2 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 47.8px;
+                width: 390.76px;
+                height: 58px;
+            }
+
+            .Informacoes_Projeto_MyService h3 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 125px;
+                width: 390.76px;
+            }
+
+            .Btns_MyService {
+                right: 33.12px;
+                bottom: 33.12px;
+            }
+
+            /*============== COCA-COLA ==============*/
+
+            .Card_Projeto_CocaCola {
+                width: 481px;
+                height: 347.71px;
+
+                top: 367.71px;
+                left: calc(50% - 481px/2);
+
+                border-radius: 41.39px;
+            }
+
+            .Name_Projeto_CocaCola {
+                width: 202.83px;
+                height: 61px;
+                left: 33.12px;
+                top: 33.12px;
+            }
+
+            .Name_Projeto_CocaCola h1 {
+                font-size: 35.8px;
+                line-height: 30.5px;
+            }
+
+            .Informacoes_Projeto_CocaCola {
+                position: absolute;
+                width: 390.76px;
+                height: 157.96px;
+                left: 33.12px;
+                top: 110.27px;
+            }
+
+            .Informacoes_Projeto_CocaCola h1 {
+                font-size: 13.54px;
+                line-height: 20px;
+
+                width: 346.06px;
+                height: 40px;
+            }
+
+            .Informacoes_Projeto_CocaCola h2 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 47.8px;
+                width: 390.76px;
+                height: 58px;
+            }
+
+            .Informacoes_Projeto_CocaCola h3 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 125px;
+                width: 390.76px;
+            }
+
+            .Btns_CocaCola {
+                right: 33.12px;
+                bottom: 33.12px;
+            }
+
+            /*============== C&E CARS ==============*/
+
+            .Card_Projeto_Cars {
+                width: 481px;
+                height: 347.71px;
+
+                top: 735.42px;
+                left: calc(50% - 481px/2);
+
+                border-radius: 41.39px;
+            }
+
+            .Name_Projeto_Cars {
+                width: 170.77px;
+                height: 61px;
+                left: 33.12px;
+                top: 33.12px;
+            }
+
+            .Name_Projeto_Cars h1 {
+                font-size: 35.8px;
+                line-height: 30.5px;
+            }
+
+            .Informacoes_Projeto_Cars {
+                position: absolute;
+                width: 390.76px;
+                height: 157.96px;
+                left: 33.12px;
+                top: 110.27px;
+            }
+
+            .Informacoes_Projeto_Cars h1 {
+                font-size: 13.54px;
+                line-height: 20px;
+
+                width: 346.06px;
+                height: 40px;
+            }
+
+            .Informacoes_Projeto_Cars h2 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 47.8px;
+                width: 390.76px;
+                height: 58px;
+            }
+
+            .Informacoes_Projeto_Cars h3 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 125px;
+                width: 390.76px;
+            }
+
+            .Btns_Cars {
+                right: 33.12px;
+                bottom: 33.12px;
+            }
+
+            /*============== EM ANDAMENTO  ==============*/
+
+            .Card_Projeto_Andamento {
+                width: 481px;
+                height: 347.71px;
+
+                top: 1103.13px;
+                left: calc(50% - 481px/2);
+
+                border-radius: 41.39px;
+            }
+
+            .Name_Projeto_Andamento {
+                width: 226.84px;
+                height: 61px;
+                left: 33.12px;
+                top: 33.12px;
+            }
+
+            .Name_Projeto_Andamento h1 {
+                font-size: 35.8px;
+                line-height: 30.5px;
+            }
+
+            .Informacoes_Projeto_Andamneto {
+                position: absolute;
+                width: 390.76px;
+                height: 157.96px;
+                left: 33.12px;
+                top: 110.27px;
+            }
+
+            .Informacoes_Projeto_Andamneto h1 {
+                font-size: 13.54px;
+                line-height: 20px;
+
+                width: 322.05px;
+                height: 20px;
+            }
+
+            .Informacoes_Projeto_Andamneto h2 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 30px;
+                width: 390.76px;
+                height: 58px;
+            }
+
+            .Informacoes_Projeto_Andamneto h3 {
+                font-size: 9.54px;
+                line-height: 14px;
+
+                top: 115px;
+                width: 390.76px;
+            }
+
+            .Btns_Andamento {
+                right: 33.12px;
+                bottom: 33.12px;
+            }
+        }
+
+        /*============== Sobre mim ==============*/
+
+        @media only screen and (width >=768px) and (width <=834px) {
+            .Sobre {
+                width: 100%;
+                height: 750px;
+            }
+
+            .Name2 {
+                width: 615px;
+                height: 67px;
+                left: calc(50% - 615px/2 - 0.5px);
+                top: 80px;
+            }
+
+            .Name2 h1 {
+                font-size: 57.5143px;
+                line-height: 50px;
+            }
+
+            .Informacoes_Sobre_Mim {
+                width: 700px;
+                height: 350px;
+                left: calc(50% - 700px/2 - 0.5px);
+                top: 200px;
+            }
+
+            .Informacoes_Sobre_Mim h1 {
+                font-size: 22px;
+                line-height: 30px;
+
+                width: 700px;
+                height: 120px;
+
+                text-align: center;
+            }
+
+            .Informacoes_Sobre_Mim h2 {
+                font-size: 18px;
+                line-height: 28px;
+
+                width: 700px;
+                height: 90px;
+
+                text-align: center;
+            }
+
+            .Informacoes_Sobre_Mim h3 {
+                font-size: 18px;
+                line-height: 28px;
+
+                width: 700px;
+                height: 90px;
+
+                text-align: center;
+            }
+
+            .btn_carregue_CV {
+                width: 203px;
+                height: 45.76px;
+                left: calc(50% - 203px/2 - 0.5px);
+                top: 580px;
+
+                font-size: 16.8173px;
+            }
+
+            .btn_carregue_CV img {
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+        /*============== Hablidades ==============*/
+
+        @media only screen and (width >=768px) and (width <=834px) {
+            .Minhas_Habilidades {
+                width: 100%;
+                height: 3100px;
+            }
+
+            .Text_Habilidade {
+                width: 615px;
+                height: 67px;
+                left: calc(50% - 615px/2 - 0.5px);
+                top: 80px;
+            }
+
+            .Text_Habilidade h1 {
+                font-size: 57.5143px;
+                line-height: 50px;
+            }
+
+            .Habilidades {
+                width: 100%;
+                height: 2880px;
+                left: 0;
+                top: 190px;
+            }
+
+            /*============== HTML ==============*/
+
+            .Html {
+                width: 450px;
+                height: 550px;
+                left: calc(50% - 450px/2 - 0.5px);
+                top: 0px;
+            }
+
+            /*============== CSS ==============*/
+
+            .Css {
+                width: 450px;
+                height: 550px;
+                left: calc(50% - 450px/2 - 0.5px);
+                top: 570px;
+            }
+
+            /*============== JAVASCRIPT ==============*/
+
+            .JavaScript {
+                width: 450px;
+                height: 550px;
+                left: calc(50% - 450px/2 - 0.5px);
+                top: 1140px;
+            }
+
+            /*============== FIGMA ==============*/
+
+            .Figma {
+                width: 450px;
+                height: 550px;
+                left: calc(50% - 450px/2 - 0.5px);
+                top: 1710px;
+            }
+
+            /*============== REACTJS ==============*/
+
+            .ReactJs {
+                width: 450px;
+                height: 550px;
+                left: calc(50% - 450px/2 - 0.5px);
+                top: 2280px;
+            }
+        }
+
+        /*============== Contatos ==============*/
+
+        @media only screen and (width >=768px) and (width <=834px) {
+            .Meus_Contatos {
+                width: 100%;
+                height: 630px;
+            }
+
+            .Text_Contatos {
+                width: 615px;
+                height: 67px;
+                left: calc(50% - 615px/2 - 0.5px);
+                top: 80px;
+            }
+
+            .Text_Contatos h1 {
+                font-size: 57.5143px;
+                line-height: 50px;
+            }
+
+            .SobreContato {
+                width: 700px;
+                height: 253px;
+                left: calc(50% - 700px/2);
+                top: 180px;
+            }
+
+            .SobreContato h1 {
+                width: 687px;
+                height: 253px;
+
+                font-size: 22px;
+                line-height: 30px;
+            }
+
+            .SobreContato h2 {
+                width: 700px;
+                height: 253px;
+
+                font-size: 18px;
+                line-height: 30px;
+            }
+
+            /*============== REDES ==============*/
+
+            .Redes {
+                position: absolute;
+                width: 455px;
+                height: 105px;
+                left: calc(50% - 455px/2);
+                top: 460px;
+
+                background: transparent;
+            }
+
+            /* ==== LINKEDIN ==== */
+
+            .LinkedIn {
+                width: 75px;
+                height: 100px;
+            }
+
+            .LinkedInIcon {
+                width: 70px;
+                height: 70px;
+            }
+
+            .Informacoes_LinkedIn {
+                width: 75px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_LinkedIn h1 {
+                width: 75px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            /* ==== FIGMA ==== */
+
+            .FigmaRede {
+                width: 75px;
+                height: 100px;
+                left: 90px;
+            }
+
+            .IconFigma {
+                width: 70px;
+                height: 70px;
+            }
+
+            .Informacoes_Figma {
+                width: 75px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_Figma h1 {
+                width: 75px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            /* ==== GITHUB ==== */
+
+            .GitHub {
+                width: 75px;
+                height: 100px;
+                left: 180px;
+            }
+
+            .GitHubIcon {
+                width: 70px;
+                height: 70px;
+            }
+
+            .Informacoes_GitHub {
+                width: 75px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_GitHub h1 {
+                width: 75px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            /* ==== WHATSAPP ==== */
+
+            .WhatsApp {
+                width: 95px;
+                height: 100px;
+                left: 270px;
+            }
+
+            .Informacoes_WhatsApp {
+                width: 95px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_WhatsApp h1 {
+                width: 95px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            /* ==== EMAIL ==== */
+
+            .Email {
+                width: 75px;
+                height: 100px;
+                left: 380px;
+            }
+
+            .EmailIcon {
+                width: 70px;
+                height: 70px;
+            }
+
+            .Informacoes_Email {
+                width: 75px;
+                height: 20px;
+
+                top: 75px;
+                left: 0px;
+            }
+
+            .Informacoes_Email h1 {
+                width: 75px;
+                height: 20px;
+
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+        }
+
         /* CSS NOTEBOOK */
 
         /*============== Inicio ==============*/
 
-        @media only screen and (min-width: 768px) and (max-width: 1440px) {
+        @media only screen and (width >=1024px) and (width <=1440px) {
             .Inicio {
                 width: 100%;
                 height: 680px;
@@ -1060,15 +1752,15 @@
             }
 
             .LogoContainer {
-                width: 500px;
+                width: 450px;
                 height: auto;
-                top: 100px;
+                top: 130px;
 
                 right: 80px;
             }
 
             .LogoContainer img {
-                width: 485.77px;
+                width: 400px;
                 height: auto;
             }
 
@@ -1086,7 +1778,7 @@
 
         /*============== Bem Vindos ==============*/
 
-        @media only screen and (min-width: 768px) and (max-width: 1440px) {
+        @media only screen and (width >=1024px) and (width <=1440px) {
             .Bem_Vindos {
                 width: 100%;
                 height: 1288px;
@@ -1376,7 +2068,7 @@
 
         /*============== Sobre mim ==============*/
 
-        @media only screen and (min-width: 768px) and (max-width: 1440px) {
+        @media only screen and (width >=1024px) and (width <=1440px) {
             .Sobre {
                 width: 100%;
                 height: 800px;
@@ -1442,7 +2134,7 @@
 
         /*============== Hablidades ==============*/
 
-        @media only screen and (min-width: 768px) and (max-width: 1440px) {
+        @media only screen and (width >=1024px) and (width <=1440px) {
             .Minhas_Habilidades {
                 width: 100%;
                 height: 1200px;
@@ -1682,7 +2374,7 @@
 
         /*============== Contatos ==============*/
 
-        @media only screen and (min-width: 768px) and (max-width: 1440px) {
+        @media only screen and (width >=1024px) and (width <=1440px) {
             .Meus_Contatos {
                 width: 100%;
                 height: 680px;
@@ -1873,5 +2565,4 @@
                 font-size: 16px;
                 line-height: 19px;
             }
-
         }

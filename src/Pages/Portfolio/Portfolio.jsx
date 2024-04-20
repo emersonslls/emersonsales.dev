@@ -8,8 +8,6 @@ import Header from '../../Components/Header';
 import WhatsAppIcon from '../../Components/WhatsIcon/WhatsAppIcon';
 import Footer from '../../Components/Footer';
 
-import ToggleButton from '../../Components/ColorMode/ToggleButton';
-
 /* ===== Imagens =====*/
 
 import Logo from '../../Assets/Logo.png';
@@ -64,18 +62,9 @@ function Portfolio() {
 
     const meuEmail = 'emersonsantossales245@gmail.com';
 
-    const initLightMode = () => {
-        document.querySelector('input[type="checkbox"]').addEventListener('change', () => {
-            document.body.classList.toggle('light-mode')
-        })
-
-    }
-
     return (
         <div>
             <Header />
-
-          {/*<ToggleButton />*/}
 
             <div className={`${styles.Inicio} ${responsivoStyles.Inicio}`}>
                 <div className={`${styles.Name} ${responsivoStyles.Name}`}>

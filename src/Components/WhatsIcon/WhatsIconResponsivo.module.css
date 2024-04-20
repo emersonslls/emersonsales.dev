@@ -1,4 +1,6 @@
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+/* ==== NOTEBOOK ====*/
+
+@media only screen and (width >=1024px) and (width <=1440px) {
   .WhatsAppIcon {
     width: 70px;
     height: 70px;
@@ -8,7 +10,21 @@
   }
 }
 
-@media (max-width: 480px) {
+/* ==== TABLEt ====*/
+
+@media only screen and (width >=768px) and (width <=834px) {
+  .WhatsAppIcon {
+    width: 70px;
+    height: 70px;
+    top: 0px;
+    left: 12.5px;
+    position: absolute;
+  }
+}
+
+/* ==== CELULAR ====*/
+
+@media only screen and (width >=320px) and (width <=430px) {
   .WhatsAppIcon {
     width: 70px;
     height: 70px;
