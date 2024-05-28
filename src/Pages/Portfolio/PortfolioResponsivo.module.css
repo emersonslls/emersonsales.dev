@@ -307,9 +307,9 @@
                 line-height: 12px;
             }
 
-            /*============== C&E CARS ==============*/
+            /*============== C&E AlphaDevs ==============*/
 
-            .Card_Projeto_Cars {
+            .Card_Projeto_AlphaDevs {
                 width: 330px;
                 height: 407.36px;
 
@@ -317,23 +317,23 @@
                 border-radius: 54.55px;
                 top: 914px;
 
-                background-image: url(../../Assets/bordaC&ERespoMobile.png);
+                background-image: url(../../Assets/bordaAlphaDevsRespoMobile.png);
             }
 
-            .Name_Projeto_Cars {
+            .Name_Projeto_AlphaDevs {
                 width: 170px;
                 height: 61px;
                 left: calc(50% - 170px/2);
                 top: 40px;
             }
 
-            .Name_Projeto_Cars h1 {
+            .Name_Projeto_AlphaDevs h1 {
                 text-align: center;
                 font-size: 30px;
                 line-height: 30.5px;
             }
 
-            .Informacoes_Projeto_Cars {
+            .Informacoes_Projeto_AlphaDevs {
                 position: absolute;
                 width: 310.76px;
                 height: 200px;
@@ -343,7 +343,7 @@
                 text-align: center;
             }
 
-            .Informacoes_Projeto_Cars h1 {
+            .Informacoes_Projeto_AlphaDevs h1 {
                 font-size: 12.54px;
                 line-height: 18px;
 
@@ -354,7 +354,7 @@
                 position: absolute;
             }
 
-            .Informacoes_Projeto_Cars h2 {
+            .Informacoes_Projeto_AlphaDevs h2 {
                 font-size: 10.54px;
                 line-height: 12px;
 
@@ -365,7 +365,7 @@
                 left: calc(50% - 280.98px/2);
             }
 
-            .Informacoes_Projeto_Cars h3 {
+            .Informacoes_Projeto_AlphaDevs h3 {
                 font-size: 10.54px;
                 line-height: 12px;
 
@@ -376,26 +376,36 @@
                 left: calc(50% - 240.98px/2);
             }
 
-            .Btns_Cars {
-                left: calc(50% - 105px/2);
+            .Btns_AlphaDevs {
+                left: calc(50% - 168px/2);
                 bottom: 30px;
 
-                width: 105px;
+                width: 168px;
                 height: 20.02px;
             }
 
-            .Info_Projeto_Cars {
+            .Info_Projeto_AlphaDevs {
                 width: 105.04px;
                 height: 17.02px;
 
-                border: 1.5px solid var(--cars);
+                border: 1.5px solid var(--alphaDevs);
                 border-radius: 15.2857px;
             }
 
-            .Info_Projeto_Cars h1 {
+            .Info_Projeto_AlphaDevs h1 {
                 font-size: 6.54px;
                 line-height: 12px;
                 width: 105.04px;
+            }
+
+            .btn_veja_mais_AlphaDevs {
+                width: 55.04px;
+                height: 17.02px;
+
+                border-radius: 15.2857px;
+
+                font-size: 6.54px;
+                line-height: 12px;
             }
 
             /*============== EM ANDAMENTO ==============*/
@@ -1263,9 +1273,9 @@
                 bottom: 33.12px;
             }
 
-            /*============== C&E CARS ==============*/
+            /*============== ALPHADEV'S ==============*/
 
-            .Card_Projeto_Cars {
+            .Card_Projeto_AlphaDevs {
                 width: 481px;
                 height: 347.71px;
 
@@ -1275,19 +1285,19 @@
                 border-radius: 41.39px;
             }
 
-            .Name_Projeto_Cars {
+            .Name_Projeto_AlphaDevs {
                 width: 170.77px;
                 height: 61px;
                 left: 33.12px;
                 top: 33.12px;
             }
 
-            .Name_Projeto_Cars h1 {
+            .Name_Projeto_AlphaDevs h1 {
                 font-size: 35.8px;
                 line-height: 30.5px;
             }
 
-            .Informacoes_Projeto_Cars {
+            .Informacoes_Projeto_AlphaDevs {
                 position: absolute;
                 width: 390.76px;
                 height: 157.96px;
@@ -1295,7 +1305,7 @@
                 top: 110.27px;
             }
 
-            .Informacoes_Projeto_Cars h1 {
+            .Informacoes_Projeto_AlphaDevs h1 {
                 font-size: 13.54px;
                 line-height: 20px;
 
@@ -1303,7 +1313,7 @@
                 height: 40px;
             }
 
-            .Informacoes_Projeto_Cars h2 {
+            .Informacoes_Projeto_AlphaDevs h2 {
                 font-size: 9.54px;
                 line-height: 14px;
 
@@ -1312,7 +1322,7 @@
                 height: 58px;
             }
 
-            .Informacoes_Projeto_Cars h3 {
+            .Informacoes_Projeto_AlphaDevs h3 {
                 font-size: 9.54px;
                 line-height: 14px;
 
@@ -1320,7 +1330,7 @@
                 width: 390.76px;
             }
 
-            .Btns_Cars {
+            .Btns_AlphaDevs {
                 right: 33.12px;
                 bottom: 33.12px;
             }
@@ -1947,28 +1957,28 @@
                 bottom: 33.12px;
             }
 
-            /*============== C&E CARS ==============*/
+            /*============== ALPHADEV'S ==============*/
 
-            .Card_Projeto_Cars {
+            .Card_Projeto_AlphaDevs {
                 width: 481px;
                 height: 347.71px;
 
                 border-radius: 41.39px;
             }
 
-            .Name_Projeto_Cars {
+            .Name_Projeto_AlphaDevs {
                 width: 170.77px;
                 height: 61px;
                 left: 33.12px;
                 top: 33.12px;
             }
 
-            .Name_Projeto_Cars h1 {
+            .Name_Projeto_AlphaDevs h1 {
                 font-size: 35.8px;
                 line-height: 30.5px;
             }
 
-            .Informacoes_Projeto_Cars {
+            .Informacoes_Projeto_AlphaDevs {
                 position: absolute;
                 width: 390.76px;
                 height: 157.96px;
@@ -1976,7 +1986,7 @@
                 top: 110.27px;
             }
 
-            .Informacoes_Projeto_Cars h1 {
+            .Informacoes_Projeto_AlphaDevs h1 {
                 font-size: 13.54px;
                 line-height: 20px;
 
@@ -1984,7 +1994,7 @@
                 height: 40px;
             }
 
-            .Informacoes_Projeto_Cars h2 {
+            .Informacoes_Projeto_AlphaDevs h2 {
                 font-size: 9.54px;
                 line-height: 14px;
 
@@ -1993,7 +2003,7 @@
                 height: 58px;
             }
 
-            .Informacoes_Projeto_Cars h3 {
+            .Informacoes_Projeto_AlphaDevs h3 {
                 font-size: 9.54px;
                 line-height: 14px;
 
@@ -2001,7 +2011,7 @@
                 width: 390.76px;
             }
 
-            .Btns_Cars {
+            .Btns_AlphaDevs {
                 right: 33.12px;
                 bottom: 33.12px;
             }

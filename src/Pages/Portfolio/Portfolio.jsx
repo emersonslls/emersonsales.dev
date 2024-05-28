@@ -168,30 +168,35 @@ function Portfolio() {
                             </a>
                         </div>
                     </div>
-                    <div className={`${styles.Card_Projeto_Cars} ${responsivoStyles.Card_Projeto_Cars}`}>
-                        <div className={`${styles.Name_Projeto_Cars} ${responsivoStyles.Name_Projeto_Cars}`}>
+                    <div className={`${styles.Card_Projeto_AlphaDevs} ${responsivoStyles.Card_Projeto_AlphaDevs}`}>
+                        <div className={`${styles.Name_Projeto_AlphaDevs} ${responsivoStyles.Name_Projeto_AlphaDevs}`}>
                             <h1>
                                 Projeto
-                                <span className={styles.Cars}> c&e cars</span>
+                                <span className={styles.AlphaDevs}> AlphaDev's</span>
                             </h1>
                         </div>
-                        <div className={`${styles.Informacoes_Projeto_Cars} ${responsivoStyles.Informacoes_Projeto_Cars}`}>
+                        <div className={`${styles.Informacoes_Projeto_AlphaDevs} ${responsivoStyles.Informacoes_Projeto_AlphaDevs}`}>
                             <h1>
-                                Este projeto está sendo um redesign de um dos meus primeiros projetos desenvolvidos.
+                                O Projeto AlphaDev’s foi desenvolvido por mim e outras cincos pessoas.
                             </h1>
                             <h2>
-                                Este projeto de redesign é uma etapa no meu aprendizado. Estou explorando funcionalidades da programação e utilizando-o para aprimorar habilidades. Dedicando tempo para experimentar conceitos e resolver desafios, mesmo em andamento.
+                            Este projeto é uma "empresa" desenvolvida por mim e outras cinco pessoas, com o intuito de prestar serviços para seu comércio e até mesmo criar sua landing page, e-commerce ou banco de dados.
                             </h2>
                             <h3>
-                                Este projeto está me ajudando a expandir meu conhecimento e aprimorar minhas habilidades de desenvolvimento de software.
+                            Este projeto foi o primeiro desenvolvido por nós na faculdade de Análise e Desenvolvimento de Sistemas, para o nosso PIM (Projeto Integrado Multidisciplinar).
                             </h3>
                         </div>
-                        <div className={`${styles.Btns_Cars} ${responsivoStyles.Btns_Cars}`}>
-                            <div className={`${styles.Info_Projeto_Cars} ${responsivoStyles.Info_Projeto_Cars}`}>
+                        <div className={`${styles.Btns_AlphaDevs} ${responsivoStyles.Btns_AlphaDevs}`} >
+                            <div className={`${styles.Info_Projeto_AlphaDevs} ${responsivoStyles.Info_Projeto_AlphaDevs}`}>
                                 <h1>
-                                    Em desemvolvimento...
+                                    Landing Page, responsiva
                                 </h1>
                             </div>
+                            <a href="https://alphadevsinnovations.vercel.app" target="_blank">
+                                <button className={`${styles.btn_veja_mais_AlphaDevs} ${responsivoStyles.btn_veja_mais_AlphaDevs}`}>
+                                    Veja mais
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div className={`${styles.Card_Projeto_Andamento} ${responsivoStyles.Card_Projeto_Andamento}`}>

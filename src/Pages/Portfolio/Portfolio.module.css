@@ -19,7 +19,7 @@
   /* === cores adicionais === */
   --cinzaclaro: #8B8B8B;
   --cocacola: #E51E2A;
-  --cars: #D62625;
+  --alphaDevs: #00B7FF;
   --myservice: #0A3DC2;
   --amarelo: #FCAF45;
   --verde: #0ACF83;
@@ -44,8 +44,8 @@
   color: var(--cocacola);
 }
 
-.Cars {
-  color: var(--cars);
+.AlphaDevs {
+  color: var(--alphaDevs);
 }
 
 .Andamneto {
@@ -650,9 +650,9 @@
   border-radius: 19.2857px;
 }
 
-/*============== C&E CARS ==============*/
+/*============== ALPHADEV'S ==============*/
 
-.Card_Projeto_Cars {
+.Card_Projeto_AlphaDevs {
   box-sizing: border-box;
   position: absolute;
   width: 581px;
@@ -662,18 +662,18 @@
 
   border-radius: 50px;
 
-  background-image: url(../../Assets/bordaC&ECars.png);
+  background-image: url(../../Assets/card_projeto_AlphaDevs.png);
   background-size: cover;
   background-position: center;
 }
 
-.Card_Projeto_Cars:hover {
+.Card_Projeto_AlphaDevs:hover {
   transform: translateY(-5px);
   /* Movendo a div para cima */
   box-shadow: 10px 10px 25px rgba(100, 100, 100, 0.1);
 }
 
-.Name_Projeto_Cars {
+.Name_Projeto_AlphaDevs {
   position: absolute;
   width: 205px;
   height: 74px;
@@ -681,7 +681,7 @@
   top: 40px;
 }
 
-.Name_Projeto_Cars h1 {
+.Name_Projeto_AlphaDevs h1 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -692,11 +692,11 @@
   color: var(--branco);
 }
 
-.Name_Projeto_Cars h1 span {
+.Name_Projeto_AlphaDevs h1 span {
   font-weight: 800;
 }
 
-.Informacoes_Projeto_Cars {
+.Informacoes_Projeto_AlphaDevs {
   position: absolute;
   width: 472px;
   height: 190px;
@@ -704,7 +704,7 @@
   top: 133.2px;
 }
 
-.Informacoes_Projeto_Cars h1 {
+.Informacoes_Projeto_AlphaDevs h1 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -716,7 +716,7 @@
   height: 50px;
 }
 
-.Informacoes_Projeto_Cars h2 {
+.Informacoes_Projeto_AlphaDevs h2 {
   position: absolute;
   top: 57.8px;
   width: 472px;
@@ -731,7 +731,7 @@
   color: var(--cinzaclaro);
 }
 
-.Informacoes_Projeto_Cars h3 {
+.Informacoes_Projeto_AlphaDevs h3 {
   position: absolute;
   top: 140px;
 
@@ -744,7 +744,7 @@
   color: var(--cinzaclaro);
 }
 
-.Btns_Cars {
+.Btns_AlphaDevs {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -752,13 +752,13 @@
   gap: 8px;
 
   position: absolute;
-  width: 120.04px;
+  width: 208.04px;
   height: 30.02px;
   right: 40px;
   bottom: 40px;
 }
 
-.Info_Projeto_Cars {
+.Info_Projeto_AlphaDevs {
   position: absolute;
 
   box-sizing: border-box;
@@ -771,10 +771,10 @@
   padding: 5.5102px 11.0204px;
   gap: 5.51px;
 
-  width: 120.04px;
+  width: 125.04px;
   height: 27.02px;
 
-  border: 1.5px solid var(--cars);
+  border: 1.5px solid var(--alphaDevs);
   border-radius: 19.2857px;
 
   flex: none;
@@ -782,8 +782,8 @@
   flex-grow: 0;
 }
 
-.Info_Projeto_Cars h1 {
-  width: 105.04px;
+.Info_Projeto_AlphaDevs h1 {
+  width: 108px;
   height: 10px;
 
   font-family: 'Poppins';
@@ -798,6 +798,40 @@
   flex-grow: 0;
   align-items: center;
   text-align: center;
+}
+
+.btn_veja_mais_AlphaDevs {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  border: none;
+
+  color: var(--branco);
+
+  width: 75px;
+  height: 27.02px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8.35215px;
+  line-height: 10px;
+
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5.5102px 11.0204px;
+  gap: 5.51px;
+
+  background: var(--alphaDevs);
+  border-radius: 19.2857px;
 }
 
 /*============== EM ANDAMENTO ==============*/
