@@ -241,7 +241,7 @@ function Portfolio() {
                 </div>
                 <div className={`${styles.Informacoes_Sobre_Mim} ${responsivoStyles.Informacoes_Sobre_Mim}`}>
                     <h1>
-                        Olá, meu nome é Emerson Santos Sales, tenho 18 anos e sou um ex-aluno da Etec, onde me formei em Desenvolvimento de Sistemas. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UNIP.
+                        Olá, meu nome é Emerson Santos Sales, tenho 19 anos e sou um ex-aluno da Etec, onde me formei em Desenvolvimento de Sistemas. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UNIP.
                     </h1>
                     <h2>
                         Desenvolvi uma paixão especial pela área de front-end e design ao longo do curso na Etec e estou em busca de oportunidades de trabalho onde eu possa aplicar e aprimorar essas habilidades.
