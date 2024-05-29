@@ -14,7 +14,7 @@ import Logo from '../../Assets/Logo.png';
 
 /* ===== Curriculo ===== */
 
-import CvEmerson from '../../Assets/CV/CV_emersonsales.pdf';
+import CvEmerson from '../../Assets/CV/CV_emersonsales2.pdf';
 
 /* ===== Icons ===== */
 
